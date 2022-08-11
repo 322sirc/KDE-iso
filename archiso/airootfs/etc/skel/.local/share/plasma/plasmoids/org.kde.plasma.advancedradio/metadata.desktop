@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=Advanced Radio Player
+Comment=Radio with editable list of stations.
+Comment[ru_RU]=Радио с редактируемым списком станций.
+Comment[en_GB]=Radio with editable list of stations.
+
+Icon=radio
+Type=Service
+ServiceTypes=Plasma/Applet
+
+X-KDE-PluginInfo-Author=Yuriy (Dr_i-glu4IT) Saurov
+X-KDE-PluginInfo-Email=dr@i-glu4it.ru
+X-KDE-PluginInfo-Version=1.8
+X-KDE-PluginInfo-Website=http://i-glu4it.ru
+X-KDE-PluginInfo-Category=Multimedia
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Name=org.kde.plasma.advancedradio
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Requires-FileDialog=Unused
+X-Plasma-Requires-LaunchApp=Unused
+X-Plasma-DefaultSize=220,300

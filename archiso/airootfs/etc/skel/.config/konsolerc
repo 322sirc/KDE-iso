@@ -1,0 +1,41 @@
+[Desktop Entry]
+DefaultProfile=XeroLinux.profile
+
+[KFileDialog Settings]
+iconViewIconSize=64
+
+[KonsoleWindow]
+AllowMenuAccelerators=true
+RememberWindowSize=false
+ShowMenuBarByDefault=false
+
+[MainWindow]
+DP-2 Height 2560x1440=452
+DP-2 Width 2560x1440=1014
+DP-2 XPosition 2560x1440=-33
+DP-2 YPosition 2560x1440=322
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAJ8A////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAAAwAD///8AAAP2AAABxAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Virtual1 Height 1891x1009=427
+Virtual1 Width 1891x1009=900
+Virtual1 XPosition 1891x1009=0
+Virtual1 YPosition 1891x1009=0
+eDP-1 HDMI-1 Height 2560x1600=602
+eDP-1 HDMI-1 Width 2560x1600=1347
+eDP-1 Height 2560x1600=602
+eDP-1 Width 2560x1600=1236
+eDP-1 XPosition 2560x1600=41
+eDP-1 YPosition 2560x1600=178
+eDP1 Height 2560x1600=602
+eDP1 Width 2560x1600=1347
+eDP1 XPosition 2560x1600=1103
+eDP1 YPosition 2560x1600=482
+
+[TabBar]
+CloseTabOnMiddleMouseButton=true
+NewTabButton=true
+
+[UiSettings]
+ColorScheme=

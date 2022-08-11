@@ -1,0 +1,4 @@
+#!/bin/bash
+SS=`jq -r .current.sunset ~/.cache/tor-onecall.json`
+#((SS+=14400))
+date -d @$SS +"%R"

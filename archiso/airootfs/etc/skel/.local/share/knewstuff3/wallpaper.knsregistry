@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Monterey wallpapers</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1567576</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>57</rating>
+  <downloads>25907</downloads>
+  <installedfile>/home/cris/.local/share/wallpapers/gxXfFq-wallpapers/*</installedfile>
+  <id>1567576</id>
+  <releasedate>2021-08-02</releasedate>
+  <summary>Monterey wallpapers for KDE Plasma</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1567576/5159b059f65da22aeb985a1231eff3cab44d31864a1969ba93d25a10df142946e0d8.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1567576/5159b059f65da22aeb985a1231eff3cab44d31864a1969ba93d25a10df142946e0d8.png</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Mjc4ODk0MDQiLCJvIjoiMSIsInMiOiJmYWIxMzFmZTc0ZmZmMWI0YzcwOWU4NDlmOWQ1NmI0YThmNjc0MDlmNDY4NDQzNjFiMTRiZjdlOGI2ZjdlZWFkYTRjYjhhMTMxODA3YTM2NDA1MjM4NzRmMWQxODJjYzJkN2Y0NTZhNGRiNTU2OWRiYmFkMTIzYjM0NTBiNmEwMSIsInQiOjE2NDY1ODc4MzgsInN0ZnAiOm51bGwsInN0aXAiOiI5OS4yMzIuMTAzLjM4In0.ol8_-X0Q5sI1BnH8HwfsklA5R47GPaYxUPKeCO4QJzA/wallpapers.tar.xz</payload>
+  <tags>plasma,wallpaper,artwork,kde,gplv3,efi</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

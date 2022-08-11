@@ -1,0 +1,56 @@
+[KFileDialog Settings]
+Recent Files[$e]=space-galaxy-cyan-stars-4k-su.jpg,file:///usr/share/backgrounds/wallpapers-personal/8.jpg,file:///usr/share/backgrounds/wallpapers-personal/background.png,file:///usr/share/backgrounds/wallpapers-personal/7.jpg,file:///usr/share/backgrounds/wallpapers-personal/14.jpg,file:///usr/share/backgrounds/wallpapers-personal/6.png,file:///usr/share/backgrounds/wallpapers-personal/13.jpg,file:///usr/share/backgrounds/wallpapers-personal/5.png,file:///usr/share/backgrounds/wallpapers-personal/12.jpg,file:///usr/share/backgrounds/wallpapers-personal/4.png,file:///usr/share/backgrounds/wallpapers-personal/11.jpg,file:///usr/share/backgrounds/wallpapers-personal/3.jpg,file:///usr/share/backgrounds/wallpapers-personal/10.jpg,file:///usr/share/backgrounds/wallpapers-personal/2.jpg,file:///usr/share/backgrounds/wallpapers-personal/9.jpg,file:///usr/share/backgrounds/wallpapers-personal/1.jpg,file:$HOME/arcolinux-froly.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:///usr/share/wallpapers/Sunset-dark/contents/images/,file:$HOME/,file:///usr/share/backgrounds/wallpapers-personal/
+iconViewIconSize=64
+
+[KPropertiesDialog]
+DP-2 Height 2560x1440=499
+DP-2 Width 2560x1440=504
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Defaults]
+maxLength=1870
+minLength=1870
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal1024]
+thickness=0
+
+[PlasmaViews][Panel 2][Horizontal1650]
+maxLength=1875
+minLength=1875
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal1891]
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal1920]
+maxLength=1870
+minLength=1870
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal2560]
+thickness=32
+
+[PlasmaViews][Panel 2][Vertical1050]
+thickness=32
+
+[PlasmaViews][Panel 30]
+panelOpacity=2
+
+[PlasmaViews][Panel 30][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 30][Horizontal2560]
+thickness=44
+
+[ScreenConnectors]
+0=eDP-1
+1=HDMI-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js

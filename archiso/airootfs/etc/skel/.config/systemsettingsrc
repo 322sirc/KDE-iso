@@ -1,0 +1,32 @@
+[KFileDialog Settings]
+Recent Files[$e]=conkyrun.sh,file:///usr/share/sddm/themes/Sweet/7.jpg,file:///usr/share/backgrounds/wallpapers-personal/7.jpg,file:///usr/share/sounds/freedesktop/stereo/dialog-error.oga,file:///usr/share/sounds/freedesktop/stereo/audio-test-signal.oga,file:$HOME/conkyrun.sh
+Recent URLs[$e]=file:$HOME/,file:///usr/share/sounds/freedesktop/stereo/,file:///usr/share/backgrounds/wallpapers-personal/,file:///usr/share/sddm/themes/Sweet/
+detailViewIconSize=48
+iconViewIconSize=64
+
+[MainWindow]
+DP-2 Height 2560x1440=706
+DP-2 Width 2560x1440=1028
+DP-2 XPosition 2560x1440=210
+DP-2 YPosition 2560x1440=233
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAByAAAARDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 HDMI-1 XPosition 2560x1600=770
+eDP-1 HDMI-1 YPosition 2560x1600=454
+eDP-1 Height 2560x1600=1091
+eDP-1 Width 2560x1600=1824
+eDP-1 XPosition 2560x1600=368
+eDP-1 YPosition 2560x1600=258
+eDP1 XPosition 2560x1600=770
+eDP1 YPosition 2560x1600=454
+
+[Open-with settings]
+CompletionMode=1
+History=dis,tilix,kcal,Subli,meld,sett,add,fire,nemo,ter,yak,pamac-tray
+
+[UiSettings]
+ColorScheme=
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true

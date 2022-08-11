@@ -1,0 +1,54 @@
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAB9fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAxAAAB9QAAAFQA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAIA////AAACPwAAAfUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+
+[CompactMode]
+FontWeight=50
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+BrowseThroughArchives=true
+ConfirmClosingMultipleTabs=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowToolTips=true
+SortingChoice=CaseInsensitiveSorting
+Version=201
+ViewPropsTimestamp=2021,9,5,16,41,28.639
+
+[IconsMode]
+FontWeight=50
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+DP-2 Height 2560x1440=667
+DP-2 Width 2560x1440=451
+Virtual1 Height 1891x1009=645
+Virtual1 Width 1891x1009=468
+
+[MainWindow]
+DP-2 Height 2560x1440=766
+DP-2 Width 2560x1440=1355
+DP-2 XPosition 2560x1440=221
+DP-2 YPosition 2560x1440=512
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+ToolBarsMovable=Disabled
+Virtual1 XPosition 1891x1009=305
+Virtual1 YPosition 1891x1009=136
+
+[Notification Messages]
+ConfirmDelete=true
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[VersionControl]
+enabledPlugins=Git,Subversion

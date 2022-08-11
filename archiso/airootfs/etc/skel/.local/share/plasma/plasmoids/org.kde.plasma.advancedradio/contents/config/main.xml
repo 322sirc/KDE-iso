@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="advancedradio"/>
+  <group name="General">
+  <entry name="version" type="String">
+              <default>1</default>
+	  </entry>
+    <entry name="servers" type="String">
+      <label>Stations</label>
+      <default>[
+      {"active":true,"hostname":"http://stream-tx3.radioparadise.com/aac-128","name":"PARADISE"},
+      {"active":true,"hostname":"http://air.radiorecord.ru:8102/rock_320","name":"Record Rock"},
+      {"active":true,"hostname":"http://ic7.101.ru:8000/c1_4","name":"Hard Rock"},
+      {"active":true,"hostname":"http://ic4.101.ru:8000/stream/pro/aac/64/157","name":"Пикник"}
+      ]</default>
+    </entry>
+    <entry name="Notification" type="bool">
+        <default>true</default>
+    </entry>
+  </group>
+  <group name="Appearance">
+        <entry name="icon" type="String">
+      <label>Icon</label>
+      <default>audio-radio</default>
+    </entry>
+
+    <entry name="fontColor" type="String">
+                <default></default>
+	    </entry>
+                    <entry name="transback" type="bool">
+		        <default>false</default>
+		    </entry>
+		    <entry name="showStation" type="bool">
+		        <default>false</default>
+		    </entry>
+		    <entry name="panel" type="bool">
+		        <default>false</default>
+		    </entry>
+		    <entry name="panelWidth" type="Int">
+		        <default>200</default>
+		    </entry>
+		    <entry name="border" type="bool">
+		        <default>true</default>
+		    </entry>
+		    <entry name="minimize" type="bool">
+		        <default>false</default>
+		    </entry>
+  </group>
+</kcfg>

@@ -1,0 +1,5 @@
+[MSFT0001:01 04F3:3202 Touchpad]
+clickMethodAreas=false
+clickMethodClickfinger=true
+naturalScroll=true
+tapToClick=true

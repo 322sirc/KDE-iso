@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="425">
+  <name>Thermal Monitor</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>clearmartin</author>
+  <homepage>https://store.kde.org/p/998915</homepage>
+  <licence></licence>
+  <version>1.2.8</version>
+  <rating>81</rating>
+  <downloads>265882</downloads>
+  <installedfile>/home/cris/.local/share/plasma/plasmoids/org.kde.thermalMonitor</installedfile>
+  <id>998915</id>
+  <releasedate>2017-09-08</releasedate>
+  <summary>Shows temperature of various available sensors including CPU, GPU (lmsensors and nvidia-smi if appliable) and HDD (using udisks2 d-bus backend).&lt;br />
+&lt;br />
+It can also show group of temperatures in one - the highest of them.&lt;br />
+&lt;br />
+REQUIRED DEPENDENCIES&lt;br />
+- qt5-graphicaleffects&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/31/45/80/998915/170354-11.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/31/45/80/998915/170354-11.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MDMyNzMxOTAiLCJvIjoiMSIsInMiOiJkMzk2MTliMGY3ZWZlMGEwNGRiZmEwYTgxNDA2NGIwMjNiMzExNjFiNDExMDNlYjk1MGM5Nzk2YzM1ZGEwZTgwMTRiNDg2OTg3NDk2YjBlMjYxZjI1M2QyMzYzY2VkYWUxYzc0MTRmNGQzNDM1ODhmNGQxZTQ3ODdiZjQ3NDgzZSIsInQiOjE2NTY4OTEyMDcsInN0ZnAiOm51bGwsInN0aXAiOiI5OS4yMzIuMTAzLjM4In0.AOJQv-7BISBN5c8UKj4wXomUdmpsy8IpXNAqwoguAfI/plasma-applet-thermal-monitor.plasmoid</payload>
+  <tags>extension,widget,unix,plasma,plasma##majorversion=5,monitoring,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="420">
+  <name>Advanced Radio Player</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>driglu4it</author>
+  <homepage>https://store.kde.org/p/1313987</homepage>
+  <licence></licence>
+  <version>1.8</version>
+  <rating>94</rating>
+  <downloads>28032</downloads>
+  <installedfile>/home/cris/.local/share/plasma/plasmoids/org.kde.plasma.advancedradio</installedfile>
+  <id>1313987</id>
+  <releasedate>2021-02-12</releasedate>
+  <summary>Radio Player with editable list of stations.&lt;br />
+You can buy me coffee or beer on &lt;a href="https://www.paypal.com/paypalme/driglu4it" target="_blank" rel="nofollow">Paypal&lt;/a> or on &lt;a href="https://liberapay.com/driglu4it/donate" target="_blank" rel="nofollow">Liberapay&lt;/a> &lt;br />
+Main...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/52/72/79/1313987/621bb869fc74e8c033bb570cae9b778a605e.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/52/72/79/1313987/621bb869fc74e8c033bb570cae9b778a605e.jpg</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTMxMDg3MTkiLCJvIjoiMSIsInMiOiJmNzhkYjZhNDkyNTQ3MmQyZjhjNWMyM2NhNjY4MjdhYWIxZWM2NzFjMjkyMDdkN2U5MGVmMzE3ZGE3ZThjYTIxYzQ2MzA4ODhiMzlhYjBiYWQ0NTBiZGQxNDYwNzAzZjgxNzNlMGNkYjQwMTg0Mjk0NDRhNjVhMDIwNmI1MGU4OCIsInQiOjE2NTY4OTEzODIsInN0ZnAiOm51bGwsInN0aXAiOiI5OS4yMzIuMTAzLjM4In0.WE3KcyG7lTeub7lTR1FEjcKCv4OKDJjCM9tKZ4ZCQtU/org.kde.plasma.advancedradio.tar.gz</payload>
+  <tags>original-product,plasma,radio,plasma##majorversion=5,plasmoid,multimedia,linux,kde,unix,widget,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="105">
+  <name>Panel Transparency Button</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>Psifidotos</author>
+  <homepage>https://store.kde.org/p/1338479</homepage>
+  <licence></licence>
+  <version>0.2.0</version>
+  <rating>82</rating>
+  <downloads>47201</downloads>
+  <installedfile>/home/cris/.local/share/plasma/plasmoids/org.kde.paneltransparencybutton</installedfile>
+  <id>1338479</id>
+  <releasedate>2020-01-22</releasedate>
+  <summary>Plasma 5 applet that enables/disables transparency for plasma panels. Plasma 5.17.3 is required to work correctly and enable/disable panel shadows when needed.&lt;br />
+&lt;br />
+How To Use:&lt;br />
+1. Unlock your widgets and add transparency button in a plasma panel&lt;br />
+2. Activate it and your plasma...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/02/97/22/1338479/00c7953536ec34f6b9a640b6ad3d9e62e556.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/02/97/22/1338479/00c7953536ec34f6b9a640b6ad3d9e62e556.png</previewBig>
+  <payload>https://dl1.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Nzk2ODU3MzIiLCJvIjoiMSIsInMiOiIyYmJmNzJhYzhlYWQ0OWEyYThhOTUwNDk2ZTliYjlhNGFkNzg0NmExODdiMWU0YjQ2YTIzNDViZWRmN2MwOWZlZDZjNzI0YWNlYTU2ZTFlOWMyOGFkMGZmNjU5ZjFjNWE2MDZmZDM4MmQ3ZmMyMDBlNjYxZTBkYjFiNjYxOTZiYiIsInQiOjE2NDc2MjAxOTAsInN0ZnAiOm51bGwsInN0aXAiOiI5OS4yMzIuMTAzLjM4In0.Zw-SuqSEj8ngINQorkP319gAfodBex0e0WBaisQHmSs/paneltransparencybutton-0.2.0.plasmoid</payload>
+  <tags>original-product,plasma,panel,plasma##majorversion=5,extension,gplv2-later,kde,linux,widget,unix,button</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="398">
+  <name>OSXLaunchpad</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>hachikoha</author>
+  <homepage>https://store.kde.org/p/1677095</homepage>
+  <licence></licence>
+  <version>0.31</version>
+  <rating>60</rating>
+  <downloads>6846</downloads>
+  <installedfile>/home/cris/.local/share/plasma/plasmoids/OSXLaunchpad</installedfile>
+  <id>1677095</id>
+  <releasedate>2022-01-22</releasedate>
+  <summary>This menu is a fork of Plasma Launchpad. I made the following changes:&lt;br />
+- Removed the rounded corners&lt;br />
+- Removed the influence of the theme on the menu (only the font is changed)&lt;br />
+- Changed the design of the "Search" field&lt;br />
+- Added animation when flipping (animation speed can...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/64/29/28/1677095/22222222222222.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/64/29/28/1677095/22222222222222.png</previewBig>
+  <payload>https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDI4ODkzNTciLCJvIjoiMSIsInMiOiI3ZjAwZmQxZWZhNTlkMWQ5MzMwNDMyYTA2ZjIwZGE4OGI2YTNmNzlmOWIzYzk0Zjk1ZDJkMDM0YTUzYzg4NDU0YWI1NWE5YWEyNmYyMGI2YmEzMTYyNmJjNDI0OTBiYjUzOTMyN2I5NzgwNzZlOTY0OWUwZmM2ZDFlMWEwMDdlYSIsInQiOjE2NTE3NTQ2NTIsInN0ZnAiOm51bGwsInN0aXAiOiI5OS4yMzIuMTAzLjM4In0.sf-n84LuyzL9opOIIodU3_yd9fe_reffmgwWMO_n4ag/OSXLaunchpad.tar.gz</payload>
+  <tags>widget,gplv2-later,kde,efi,extension,launchpad,macos,linux,plasma,monterey,menu,plasma##majorversion=5,unix,bigsur</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
