@@ -19,6 +19,6 @@ echo "Settings: ConsoleFonts "
 echo "#################################"
 echo "FONT=ter-132b" >> /etc/vconsole.conf
 
-echo "Enable tlp.service "
-echo "#################################"
-sudo systemctl enable tlp.service
+#echo "Enable tlp.service "
+#echo "#################################"
+#sudo systemctl enable tlp.service

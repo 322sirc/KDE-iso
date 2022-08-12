@@ -275,6 +275,7 @@ polkit-kde-agent
 polkit-qt5
 poppler-glib
 poppler-qt5
+power-profiles-daemon
 powerdevil
 ppp
 pptpclient
@@ -315,7 +316,6 @@ tcpdump
 terminus-font
 testdisk
 tilix
-tlp
 tmux
 tpm2-tss
 tree
