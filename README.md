@@ -1,3 +1,3 @@
 # KDE-iso
 Plasma desktop iso with linux-xanmod-edge
-https://i.postimg.cc/FKsjhkrs/2022-08-12-22-29.png
+[url=https://postimg.cc/CRXZN1nW][img]https://i.postimg.cc/CRXZN1nW/2022-08-12-22-29.png[/img][/url]
