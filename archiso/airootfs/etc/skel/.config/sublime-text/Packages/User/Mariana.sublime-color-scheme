@@ -1,0 +1,17 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+		"grey_dark": "rgba(55, 62, 75, 0.5)",
+		"froly": "rgb(255, 197, 197)"
+	},
+	"globals":
+	{
+		"foreground": "var(froly)",
+		"background": "var(grey_dark)"
+	},
+	"rules":
+	[
+		
+	]
+}
