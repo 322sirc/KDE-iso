@@ -60,12 +60,7 @@ QListWidget::item:alternate {
 }
 
 
-
-
-
 /* ########## TOOLTIP ########## */
-
-
 
 QPushButton {
     font : 16px;
@@ -258,22 +253,33 @@ QHeaderView::section {
   font : 16px;
 }
 
+/* ########## PROGRESS BAR ########## */
+
+QProgressBar {
+	border: 1px inset gray;
+	text-align: center;
+}
+
+QProgressBar::chunk {
+	background-color: #f598d6;
+}
+
 #debugButton {
 	background-color: none;
 	font: 12px;
-	color: #edecf0;
+	color: #f2bde0;
   height: 32px;
   border: none;
 }
 
 #debugButton:hover {
-	color: #353945;
+	color: #c761a5;
 }
 
 #aboutButton {
 	background-color: none;
 	font: 12px;
-	color: #edecf0;
+	color: #f2bde0;
   height: 32px;
   border: none;
 }

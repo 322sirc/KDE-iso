@@ -15,7 +15,7 @@ archlinux-appstream-data-pamac
 archlinux-keyring
 archlinux-logout-git
 archlinux-logout-themes-git
-archlinux-tweak-tool-git
+#archlinux-tweak-tool-git
 arcolinux-keyring
 arcolinux-mirrorlist-git
 ark

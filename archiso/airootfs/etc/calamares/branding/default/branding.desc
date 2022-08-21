@@ -121,12 +121,12 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         XFCE
-    shortProductName:    XFCE
-    version:             2022.08.1
-    shortVersion:        2022.08
-    versionedName:       XFCE
-    shortVersionedName:  XFCE
+    productName:         ALCI
+    shortProductName:    alci
+    version:             2022.09.15
+    shortVersion:        2022.09
+    versionedName:       ALCI
+    shortVersionedName:  alci
     bootloaderEntryName: Generic
 
 # These images are loaded from the branding module directory.
