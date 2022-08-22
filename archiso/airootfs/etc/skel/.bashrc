@@ -215,13 +215,13 @@ alias keyfix="/usr/local/bin/fixkey"
 alias key-fix="/usr/local/bin/fixkey"
 alias keys-fix="/usr/local/bin/fixkey"
 alias fixkey="/usr/local/bin/fixkey"
-alias fixkeys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias fix-key="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias fix-keys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
+alias fixkeys="/usr/local/bin/fixkey"
+alias fix-key="/usr/local/bin/fixkey"
+alias fix-keys="/usr/local/bin/fixkey"
 #fix-sddm-config is no longer an alias but an application - part of ATT
 #alias fix-sddm-config="/usr/local/bin/arcolinux-fix-sddm-config"
-alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
-alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
+#alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
+#alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
@@ -248,7 +248,7 @@ alias mkinstall="makepkg -sic"
 alias locinstall="sudo pacman -U"
 
 
-#personal
+#git
 
 alias clone="git clone"
 alias repoup="repo-add repo.db.tar.gz *.pkg.tar.zst"
@@ -317,6 +317,7 @@ alias personal='cp -Rf /personal/* ~'
 
 # reporting tools - install when not installed
 neofetch
+#fastfetch
 #screenfetch
 #alsi
 #paleofetch

@@ -70,6 +70,7 @@ exfatprogs
 exo
 expac
 f2fs-tools
+fastfetch
 fatresize
 feh
 ffmpegthumbnailer
@@ -153,6 +154,7 @@ kinfocenter
 kinit
 kio
 kio-gdrive
+kitty
 kitty-terminfo
 kmenuedit
 kmousetool
