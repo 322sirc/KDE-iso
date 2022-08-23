@@ -32,25 +32,23 @@
           "type": "os"
         },
         {
-          "background": "#7621de",
-          "foreground": "#ff8c94",
+         "background": "#5f5f8f",
+         "foreground": "#ff8c94",
           "style": "diamond",
-          "leading_diamond": "<transparent,#7621de>\ue0b0</>",
-          "properties": {
-            "template": "CPU: {{ round .PhysicalPercentUsed .Precision }}% | "
-          },
+          "leading_diamond": "<transparent,#5f5f8f>\ue0b0</>",
+          "template": "\uf85a CPU: {{ round .PhysicalPercentUsed .Precision }}% | ",
           "type": "sysinfo"
         },
         {
-          "background": "#7621de",
+          "background": "#5f5f8f",
           "foreground": "#ff8c94",
           "style": "diamond",
           "template": "RAM: {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB \uf85a ",
-          "trailing_diamond": "<transparent,#7621de>\ue0b2</>",
+          "trailing_diamond": "<transparent,#5f5f8f>\ue0b2</>",
           "type": "sysinfo"
         },
         {
-          "background": "#7621de",
+          "background": "#5f5f8f",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b2",
           "properties": {
@@ -62,10 +60,10 @@
           "trailing_diamond": "\ue0b0",
           "type": "executiontime"
         }
-        ],
+      ],
       "type": "prompt"
     },
-        {
+    {
       "alignment": "right",
       "newline": false,
       "segments": [{

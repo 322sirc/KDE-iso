@@ -58,8 +58,6 @@ alias balance="powerprofilesctl set balanced"
 alias performance="powerprofilesctl set performance"
 alias power-saver="powerprofilesctl set power-saver"
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
-
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
@@ -315,9 +313,11 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
+eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
+
 # reporting tools - install when not installed
-neofetch
-#fastfetch
+fastfetch
+#neofetch
 #screenfetch
 #alsi
 #paleofetch
