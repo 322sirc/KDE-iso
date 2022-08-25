@@ -111,12 +111,12 @@ ForegroundPositive=39,174,96
 ForegroundVisited=113,122,153
 
 [DirSelect Dialog]
-DirSelectDialog Size=883,593
-History Items[$e]=file:$HOME/Pictures,file:$HOME/Pictures,file:///usr/share/wallpapers
+DirSelectDialog Size=1181,1078
+History Items[$e]=file:///run,file:$HOME/Pictures,file:$HOME/Pictures,file:///usr/share/wallpapers
 
 [General]
 BrowserApplication=firefox.desktop
-ColorSchemeHash=6660d339f470348737bba6986721af06411871f8
+ColorSchemeHash=3b2fa445c3cb22edec213fbe09bdb649f1c99271
 Name=Layan
 XftAntialias=true
 XftHintStyle=hintfull
@@ -126,9 +126,6 @@ fixed=Inconsolata,11,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 widgetStyle=kvantum
-
-[Icons]
-Theme=Fluent-red
 
 [KDE]
 AnimationDurationFactor=2.82842712474619

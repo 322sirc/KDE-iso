@@ -40,6 +40,11 @@ WobblynessLevel=2
 [ModifierOnlyShortcuts]
 Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
+[NightColor]
+LatitudeAuto=43.8841
+LongitudeAuto=-79.0607
+NightTemperature=5200
+
 [Plugins]
 blurEnabled=true
 desktopchangeosdEnabled=false

@@ -1,11 +1,16 @@
 [General]
-SplitterSizes=572,865
+SplitterSizes=569,861
+
+[KFileDialog Settings]
+Recent Files[$e]=kitty.png,file:$HOME/.config/kitty/kitty.png
+Recent URLs[$e]=file:$HOME/.config/kitty/
+detailViewIconSize=16
 
 [MainWindow]
 DP-2 XPosition 2560x1440=680
 DP-2 YPosition 2560x1440=524
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABa4AAAFYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABacAAAFYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1 XPosition 2560x1600=553
 eDP-1 YPosition 2560x1600=602

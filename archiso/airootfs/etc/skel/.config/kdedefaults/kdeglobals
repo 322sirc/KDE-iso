@@ -1,8 +1,8 @@
 [General]
-ColorScheme=SunsetDarkJune16
+ColorScheme=SunsetDark
 
 [Icons]
-Theme=Fluent-pink
+Theme=Fluent-red-dark
 
 [KDE]
 widgetStyle=Breeze

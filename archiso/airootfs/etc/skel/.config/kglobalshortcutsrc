@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-77a886e2-8b83-4d0b-825d-bd391dfd428c=none,none,Switch to activity "Default"
 switch-to-activity-cd915191-804f-4d50-8fc3-f8e5c0279f54=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -279,6 +280,13 @@ open-computer=Meta+Z,none,Computer
 open-home=Meta+X,none,Home
 open-trash=none,none,Trash
 
+[org.flameshot.Flameshot.desktop]
+Capture=none,none,Take screenshot
+Configure=none,none,Configure
+Launcher=none,none,Open launcher
+_k_friendly_name=Flameshot
+_launch=none,none,Flameshot
+
 [org.gnome.Evince.desktop]
 _k_friendly_name=Document Viewer
 _launch=none,none,Launch Document Viewer
@@ -320,12 +328,12 @@ _launch=Meta+.,Meta+.,Emoji Selector
 [org.kde.spectacle.desktop]
 ActiveWindowScreenShot=none,Meta+Print,Capture Active Window
 CurrentMonitorScreenShot=none,none,Capture Current Monitor
-FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
+FullScreenScreenShot=Print,Shift+Print,Capture Entire Desktop
 OpenWithoutScreenshot=none,none,Launch Spectacle without capturing
 RectangularRegionScreenShot=Meta+Shift+S,Meta+Shift+Print,Capture Rectangular Region
-WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
+WindowUnderCursorScreenShot=none,Meta+Ctrl+Print,Capture Window Under Cursor
 _k_friendly_name=Spectacle
-_launch=Print,Print,Launch Spectacle
+_launch=none,Print,Launch Spectacle
 
 [org.manjaro.pamac.manager.desktop]
 _k_friendly_name=Add/Remove Software

@@ -1,11 +1,14 @@
 [KFileDialog Settings]
-Recent Files[$e]=space-galaxy-cyan-stars-4k-su.jpg,file:///usr/share/backgrounds/wallpapers-personal/8.jpg,file:///usr/share/backgrounds/wallpapers-personal/background.png,file:///usr/share/backgrounds/wallpapers-personal/7.jpg,file:///usr/share/backgrounds/wallpapers-personal/14.jpg,file:///usr/share/backgrounds/wallpapers-personal/6.png,file:///usr/share/backgrounds/wallpapers-personal/13.jpg,file:///usr/share/backgrounds/wallpapers-personal/5.png,file:///usr/share/backgrounds/wallpapers-personal/12.jpg,file:///usr/share/backgrounds/wallpapers-personal/4.png,file:///usr/share/backgrounds/wallpapers-personal/11.jpg,file:///usr/share/backgrounds/wallpapers-personal/3.jpg,file:///usr/share/backgrounds/wallpapers-personal/10.jpg,file:///usr/share/backgrounds/wallpapers-personal/2.jpg,file:///usr/share/backgrounds/wallpapers-personal/9.jpg,file:///usr/share/backgrounds/wallpapers-personal/1.jpg,file:$HOME/arcolinux-froly.png
-Recent URLs[$e]=file:$HOME/Pictures/,file:///usr/share/wallpapers/Sunset-dark/contents/images/,file:$HOME/,file:///usr/share/backgrounds/wallpapers-personal/
+Recent Files[$e]=space-galaxy-cyan-stars-4k-su.jpg,file:$HOME/.config/kitty/arcolinux-froly.png,file:///usr/share/backgrounds/wallpapers-personal/8.jpg,file:///usr/share/backgrounds/wallpapers-personal/7.jpg,file:///usr/share/backgrounds/wallpapers-personal/14.jpg,file:///usr/share/backgrounds/wallpapers-personal/6.png,file:///usr/share/backgrounds/wallpapers-personal/13.jpg,file:///usr/share/backgrounds/wallpapers-personal/12.jpg,file:///usr/share/backgrounds/wallpapers-personal/4.png,file:///usr/share/backgrounds/wallpapers-personal/3.jpg,file:///usr/share/backgrounds/wallpapers-personal/10.jpg,file:///usr/share/backgrounds/wallpapers-personal/2.jpg,file:///usr/share/backgrounds/wallpapers-personal/9.jpg
+Recent URLs[$e]=file:$HOME/Pictures/,file:///usr/share/wallpapers/Sunset-dark/contents/images/,file:$HOME/,file:///usr/share/backgrounds/wallpapers-personal/,file:$HOME/.config/kitty/
+detailViewIconSize=16
 iconViewIconSize=64
 
 [KPropertiesDialog]
 DP-2 Height 2560x1440=499
 DP-2 Width 2560x1440=504
+eDP-1 Height 2560x1600=514
+eDP-1 Width 2560x1600=560
 
 [PlasmaViews][Panel 2]
 alignment=132

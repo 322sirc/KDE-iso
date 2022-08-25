@@ -2,4 +2,5 @@
 clickMethodAreas=false
 clickMethodClickfinger=true
 naturalScroll=true
+pointerAcceleration=0.4
 tapToClick=true

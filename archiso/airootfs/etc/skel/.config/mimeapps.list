@@ -1,0 +1,12 @@
+[Default Applications]
+text/plain=sublime_text.desktop
+x-scheme-handler/skype=skypeforlinux.desktop
+x-scheme-handler/tel=skypeforlinux.desktop
+x-scheme-handler/callto=skypeforlinux.desktop
+application/x-trash=sublime_text.desktop
+audio/x-mod=sublime_text.desktop
+
+[Added Associations]
+text/plain=sublime_text.desktop;
+application/x-trash=sublime_text.desktop;
+audio/x-mod=sublime_text.desktop;

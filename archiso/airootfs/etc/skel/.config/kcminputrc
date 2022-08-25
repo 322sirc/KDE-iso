@@ -9,4 +9,5 @@ RepeatRate=25
 
 [Mouse]
 X11LibInputXAccelProfileFlat=false
-cursorTheme=Catppuccin-Maroon-Cursors
+XLbInptNaturalScroll=true
+XLbInptPointerAcceleration=0.6

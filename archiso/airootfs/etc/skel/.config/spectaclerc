@@ -1,0 +1,14 @@
+[$Version]
+update_info=spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[GuiConfig]
+window-position=201,186
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Screenshot_20220823_204128.png,file:$HOME/Pictures/Screenshot_20220823_204128.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16
+
+[Save]
+lastSaveAsLocation=file:///home/cris/Pictures/Screenshot_20220823_204128.png
+lastSaveLocation=file:///home/cris/Pictures/Screenshot_20220823_204128.png

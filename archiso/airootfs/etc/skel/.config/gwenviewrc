@@ -9,8 +9,8 @@ LastUsedVersion=210800
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=32
-Recent Files[$e]=file:$HOME/Documents/repo.jpg,file:$HOME/Documents/repo.jpg
-Recent URLs[$e]=file:$HOME/Documents/
+Recent Files[$e]=file:$HOME/Work/Create-pkg/Sunset-mine/src-work/wallpapers/Sunset-mod/contents/screenshots.png,file:$HOME/Work/Create-pkg/Sunset-mine/src-work/wallpapers/Sunset-mod/contents/screenshots.png
+Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/Work/Create-pkg/Sunset-mine/src-work/wallpapers/Sunset-mod/contents/
 detailViewIconSize=16
 
 [MainWindow]
@@ -22,26 +22,12 @@ Window-Maximized 1080x1920=true
 eDP-1 Height 2560x1600=1466
 eDP-1 Width 2560x1600=1706
 eDP-1 XPosition 1707x1067=533
-eDP-1 XPosition 2560x1600=734
+eDP-1 XPosition 2560x1600=667
 eDP-1 YPosition 1707x1067=293
 eDP-1 YPosition 2560x1600=68
 
 [Recent Files]
-File1[$e]=$HOME/BUILD/Build/AmOS/amos-xfce-iso-v2/amos-calamares-xfce-config-dev/etc/calamares/branding/amos/slide1.png
-File2[$e]=$HOME/Git/branding/default/2-alci.png
-File3[$e]=$HOME/BUILD/Build/AmOS/amos-xfce-iso-v2/amos-calamares-xfce-config-dev/etc/calamares/branding/amos/icon.png
-File4[$e]=$HOME/Git/XFCE-iso/archiso/airootfs/etc/calamares/branding/default/1-welcometo.png
-File5[$e]=$HOME/Git/XFCE-iso/archiso/airootfs/etc/calamares/branding/default/2-alci.png
-File6[$e]=$HOME/BUILD/Build/Xerolinux/Xerlinux-xanmod-edge/kde_iso-old/archiso/airootfs/etc/calamares/branding/xerolinux/Welcome.png
-File7[$e]=$HOME/BUILD/Build/Xerolinux/Xerlinux-xanmod-edge/kde_iso-old/archiso/airootfs/etc/calamares/branding/xerolinux/logo.png
-File8[$e]=$HOME/BUILD/Build/Xerolinux/Xerlinux-xanmod-edge/kde_iso-old/archiso/airootfs/etc/calamares/branding/xerolinux/slide1.png
-File9[$e]=$HOME/BUILD/Build/AmOS/2022-07-21_16-57.png
-Name1[$e]=slide1.png
-Name2[$e]=2-alci.png
-Name3[$e]=icon.png
-Name4[$e]=1-welcometo.png
-Name5[$e]=2-alci.png
-Name6[$e]=Welcome.png
-Name7[$e]=logo.png
-Name8[$e]=slide1.png
-Name9[$e]=2022-07-21_16-57.png
+File1[$e]=/run/media/cris/d876b3ed-87f3-4f17-8b95-04c3b3385561/Git/XFCE-iso/archiso/airootfs/etc/calamares/branding/default/wallpaper.jpg
+File2[$e]=$HOME/Pictures/Screenshot_20220823_204128.png
+Name1[$e]=wallpaper.jpg
+Name2[$e]=Screenshot_20220823_204128.png

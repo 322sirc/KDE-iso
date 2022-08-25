@@ -197,16 +197,13 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][36][ConfigDialog]
+[Containments][37][ConfigDialog]
 DialogHeight=840
 DialogWidth=1120
 
-[Containments][36][General]
-positions={"2560x1600":[]}
-
-[Containments][36][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Drop/contents/images/Drop.png
-SlidePaths=/usr/share/wallpapers,/usr/share/backgrounds/wallpapers-personal
+[Containments][37][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Sunset-dark/contents/images/2560x1600.png
+SlidePaths=/usr/share/wallpapers
 
 [Containments][7][Applets][15][Configuration]
 PreloadWeight=0
