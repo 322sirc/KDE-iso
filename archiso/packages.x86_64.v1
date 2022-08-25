@@ -1,3 +1,4 @@
+##base packages
 
 amd-ucode
 arch-install-scripts
@@ -6,6 +7,7 @@ archlinux-keyring
 b43-fwcutter
 base
 bind
+boost
 brltty
 btrfs-progs
 crda
@@ -25,6 +27,7 @@ efibootmgr
 espeakup
 ethtool
 exfatprogs
+expac
 f2fs-tools
 fatresize
 fsarchiver
@@ -43,7 +46,9 @@ irssi
 iw
 #iwd
 jfsutils
+ki18n
 kitty-terminfo
+kpmcore
 less
 lftp
 libfido2
@@ -57,7 +62,7 @@ upd72020x-fw
 livecd-sounds
 lsscsi
 lvm2
-lynx
+#lynx
 man-db
 man-pages
 mc
@@ -79,6 +84,7 @@ nvme-cli
 open-iscsi
 open-vm-tools
 openconnect
+openresolv
 openssh
 openvpn
 partclone
@@ -89,7 +95,6 @@ ppp
 pptpclient
 pv
 reflector
-reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
@@ -111,6 +116,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
+vala
 vim
 vpnc
 wireless-regdb
@@ -126,13 +132,13 @@ xl2tpd
 zsh
 
 ###archiso-extra
+curl
 dialog
 dnsutils
 logrotate
 ntp
 wget
 
-# everything above comes from archiso releng folder
 #######################################################
 ###                    ALCI                         ###
 #######################################################
@@ -142,7 +148,6 @@ wget
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-
 alci-calamares
 
 #alci-calamares-config-xanmod-edge
@@ -151,21 +156,27 @@ alci-calamares
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
-
+exa
 sddm
 bash-completion
 os-prober
 dex
 libxinerama
 make
+mkinitcpio-firmware
 xorg-xkill
 xterm
 xorg-xrdb
+xorg-xinit
+xsettingsd
 mkinitcpio-openswap
 htop
 bashtop
+dconf-editor
+neofetch
+fastfetch
 
-##### you can also use nmtui from the terminal
+##### network
 networkmanager
 network-manager-applet
 
@@ -180,41 +191,32 @@ udisks2
 xdg-user-dirs
 
 
-#######################################################
-###                    EXTRAS                       ###
-#######################################################
-
 ##### xorg applications
 
 xorg-server
 xorg-apps
-neofetch
+arandr
+asciinema
 
 ###### Drivers for laptop touchsreen toucpad
 
+brightnessctl
 laptop-detect
 xf86-input-elographics
 xf86-input-libinput
-tlp
+power-profiles-daemon
 
 ##### Bluetooth 
 blueberry
 bluez-utils
-gnome-bluetooth
-
-
 
 
 ##### Drivers for graphical cards
 
-#driver for virtualbox - xf86-video-vmware is dependency
-#systemctl enable vboxservice
-#systemctl start vboxservice
-#to have fullscreen
-virtualbox-guest-utils
 
 xf86-input-evdev
 xf86-video-fbdev
+xf86-video-gxl
 xf86-input-void
 xf86-input-wacom
 mesa
@@ -230,7 +232,10 @@ vulkan-intel
 vulkan-mesa-layers
 vulkan-tools
 onevpl-intel-gpu
+onevpl-cpu
 intel-gpu-tools
+
+meson
 
 ####Drivers audio
 alsa-firmware
@@ -250,13 +255,21 @@ pipewire
 pipewire-alsa
 pipewire-pulse
 pipewire-v4l2
-pavucontrol
 
 v4l-utils
+
+#driver for virtualbox
+#systemctl enable vboxservice
+#systemctl start vboxservice
+#to have fullscreen
+
+virtualbox-guest-utils
+xf86-input-vmouse
 
 
 ###tumbler
 tumbler
+ffmpegthumbs
 ffmpegthumbnailer
 freetype2
 libgsf
@@ -265,20 +278,25 @@ poppler-glib
 poppler-qt5
 
 
-##### brain
+##### core packages
 
 base-devel
 appstream
+fuse2
+fuse3
+gcc
+git
+hwinfo
 linux-xanmod-edge
 linux-xanmod-edge-headers
 sound-theme-freedesktop
 soundtouch
-git
 yay-bin
 paru-bin
 inxi
 unace
 unrar
+zip
 unzip
 tree
 exo
@@ -288,14 +306,16 @@ exo
 ### https://archlinux.org/groups/x86_64/plasma/
 
 ### Essentials
-
+kio
 kwin
 milou
 breeze
 kcrash
 drkonqi
 kgamma5
+kinit
 kscreen
+discover
 khotkeys
 sddm-kcm
 kmenuedit
@@ -303,10 +323,14 @@ ksysguard
 bluedevil
 powerdevil
 libkscreen
+kconfig
 kinfocenter
+kiconthemes
 ksshaskpass
 kdecoration
 kdeconnect
+kcoreaddons
+kio-gdrive
 kglobalaccel
 libksysguard
 kde-dev-utils
@@ -345,23 +369,33 @@ dolphin
 kdialog
 konsole
 kalendar
+gwenview
 kmousetool
 ksystemlog
 khelpcenter
+keditbookmarks
 markdownpart
+qt5
+qt5-base
+qt5-virtualkeyboard
+spectacle
 #kwalletmanager
+svgpart
 
 ### Others
 
 pacman-contrib
 systemd-kcm
 kcolorchooser
+konsave
 kdeplasma-addons
 kdegraphics-thumbnailers
+kwrite
 dolphin-plugins
 kdesdk-thumbnailers
 yakuake
 kwin-scripts-forceblur
+polkit-qt5
 
 
 ##### Arcolinux apps
@@ -371,26 +405,28 @@ arcolinux-keyring
 
 archlinux-logout-git
 archlinux-logout-themes-git
-archlinux-tweak-tool-git
+#archlinux-tweak-tool-git
 
 ###applications
 
 alacritty
 audacious
-dmenu
 discord
 feh
 firefox
 flameshot
 geoclue
 guvcview
-kvantum-qt5
+inkscape
+kitty
 meld
 mintstick
 numlockx
 qbittorrent
 nemo
 nemo-fileroller
+file-roller
+gmail-desktop
 gnome-terminal-transparency
 gnome-logs
 gnome-disk-utility
@@ -399,6 +435,7 @@ parallel
 sublime-text-4
 spotify-adblock
 stacer-bin
+systemd-manager
 tilix
 vlc
 
@@ -424,7 +461,6 @@ ttf-ms-fonts
 
 
 #themes
-cris-gtk-themes
 Arc-Froly-Dark-gtk-theme
 #fluent-icon-theme-bp
 #fluent-red-icon-theme
@@ -432,10 +468,11 @@ fluent-round-icon-theme-git
 sunset-mine-kde
 catppuccin-cursors-git
 wallpapers-personal
+whitesur-dark-red-nord-gtk-theme
 
 #tools
-kvantum
-latte-dock
+kvantum-qt5
+latte-dock-git
 
 #apps-personal-repo
 archlinux-appstream-data-pamac
