@@ -35,7 +35,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 hdparm
 hyperv
@@ -426,7 +425,6 @@ qbittorrent
 nemo
 nemo-fileroller
 file-roller
-gmail-desktop
 gnome-terminal-transparency
 gnome-logs
 gnome-disk-utility
