@@ -24,18 +24,14 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	#Let us set the desktop"
-	#First letter of desktop is small letter
+	
+	#desktop="plasma"
+	#lightdmDesktop="plasma"
 
-	#desktop="xfce"
-	#lightdmDesktop="xfce"
-
-	#arcolinuxVersion='v21.03.1'
-
-	#isoLabel='arcolinux-next-'$arcolinuxVersion'-x86_64.iso'
+	#ArchLinuxCalamaresInstallationVersion='v22.09.15'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 65-1"
+	archisoRequiredVersion="archiso 66-1"
 	buildFolder=$HOME"/KDE-build"
 	outFolder=$HOME"/KDE-iso"
 	archisoVersion=$(sudo pacman -Q archiso)
