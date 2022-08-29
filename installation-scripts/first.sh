@@ -303,3 +303,12 @@ echo "- Check your out folder :"$outFolder
 tput sgr0
 echo "################################################################## "
 echo
+
+echo "Phase 9 :"
+echo "- Making sure we start with a clean slate next time"
+tput sgr0
+echo "################################################################## "
+echo
+
+	echo "Deleting the build folder if one exists - takes some time"
+	[ -d $buildFolder ] && sudo rm -rf $buildFolder
