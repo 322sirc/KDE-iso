@@ -290,6 +290,7 @@ qt5-base
 qt5-virtualkeyboard
 qt5-websockets
 reflector
+ripgrep
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
