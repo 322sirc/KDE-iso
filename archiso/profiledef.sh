@@ -25,5 +25,6 @@ file_permissions=(
   ["/etc/polkit-1/rules.d"]="0:0:750"
   ["/etc/sudoers.d"]="0:0:750"
   ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
-  ["/usr/local/bin/xfce-final"]="0:0:755"
+  ["/usr/local/bin/before"]="0:0:755"
+  ["/usr/local/bin/final"]="0:0:755"
 )
