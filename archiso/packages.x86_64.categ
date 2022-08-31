@@ -383,7 +383,7 @@ spectacle
 svgpart
 
 ### Others
-
+pacman-hooks
 pacman-contrib
 systemd-kcm
 kcolorchooser

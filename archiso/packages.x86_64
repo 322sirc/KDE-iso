@@ -253,6 +253,7 @@ openvpn
 os-prober
 packagekit-qt5
 pacman-contrib
+pacman-hooks
 pamac-aur-git
 parallel
 partclone
