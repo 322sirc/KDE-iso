@@ -436,7 +436,7 @@ spotify-adblock
 stacer-bin
 systemd-manager
 the_platinum_searcher-bin
-tilix
+tilix-git
 vlc
 
 ###conky
