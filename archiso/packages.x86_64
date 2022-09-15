@@ -155,7 +155,6 @@ kinit
 kio
 kio-gdrive
 kitty
-kitty-terminfo
 kmenuedit
 kmousetool
 knotifications
@@ -365,7 +364,6 @@ wvdial
 xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
 xdg-user-dirs
-xdg-user-dirs
 xdo
 xdotool
 xf86-input-elographics
@@ -391,3 +389,7 @@ yakuake
 yay-bin
 zip
 zsh
+
+#wayland sessions
+plasma-wayland-session
+plasma-wayland-protocols
