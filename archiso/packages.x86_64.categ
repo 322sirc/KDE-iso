@@ -46,7 +46,7 @@ iw
 #iwd
 jfsutils
 ki18n
-kitty-terminfo
+kitty-terminfo-git
 kpmcore
 less
 lftp
@@ -418,7 +418,7 @@ flameshot
 geoclue
 guvcview
 inkscape
-kitty
+kitty-git
 meld
 mintstick
 numlockx

@@ -154,7 +154,8 @@ kinfocenter
 kinit
 kio
 kio-gdrive
-kitty
+kitty-git
+kitty-terminfo-git
 kmenuedit
 kmousetool
 knotifications
