@@ -119,8 +119,8 @@ intel-gpu-tools
 intel-media-driver
 intel-ucode
 inxi
-ipw2100-fw
-ipw2200-fw
+#ipw2100-fw
+#ipw2200-fw
 irssi
 iw
 jfsutils
