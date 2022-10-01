@@ -119,8 +119,6 @@ intel-gpu-tools
 intel-media-driver
 intel-ucode
 inxi
-#ipw2100-fw
-#ipw2200-fw
 irssi
 iw
 jfsutils
@@ -168,6 +166,7 @@ ksshaskpass
 ksysguard
 ksystemlog
 kvantum-qt5
+kvantum-theme-catppuccin-git
 kwin
 kwin-scripts-forceblur
 kwrite
@@ -297,6 +296,7 @@ rsync
 rxvt-unicode-terminfo
 screen
 sddm
+sddm-theme-catppuccin-git
 sddm-kcm
 sdparm
 sg3_utils
