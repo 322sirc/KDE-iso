@@ -296,7 +296,7 @@ rsync
 rxvt-unicode-terminfo
 screen
 sddm
-sddm-theme-catppuccin-git
+sddm-theme-catppuccin
 sddm-kcm
 sdparm
 sg3_utils
