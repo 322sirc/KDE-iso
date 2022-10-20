@@ -291,6 +291,7 @@ linux-xanmod-edge
 linux-xanmod-edge-headers
 sound-theme-freedesktop
 soundtouch
+most
 yay-bin
 paru-bin
 inxi
@@ -434,7 +435,6 @@ parallel
 sublime-text-4
 spotify-adblock
 stacer-bin
-systemd-manager
 the_platinum_searcher-bin
 tilix-git
 vlc

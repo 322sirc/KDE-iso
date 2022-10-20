@@ -219,6 +219,7 @@ mkinitcpio-firmware
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 modemmanager
+most
 mtools
 mtpfs
 nano
@@ -315,7 +316,6 @@ svgpart
 swish-sddm-theme
 syslinux
 systemd-kcm
-systemd-manager
 systemd-resolvconf
 systemsettings
 tcpdump
