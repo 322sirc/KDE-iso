@@ -175,6 +175,7 @@ bashtop
 dconf-editor
 neofetch
 fastfetch
+hardinfo-gtk3
 
 ##### network
 networkmanager

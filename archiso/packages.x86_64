@@ -108,6 +108,7 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gwenview
+hardinfo-gtk3
 hdparm
 htop
 hwinfo
