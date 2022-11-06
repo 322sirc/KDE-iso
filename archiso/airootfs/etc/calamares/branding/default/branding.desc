@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         ALCI
     shortProductName:    alci
-    version:             2022.09.15
-    shortVersion:        2022.09
+    version:             2022.12.01
+    shortVersion:        2022.12
     versionedName:       ALCI
     shortVersionedName:  alci
     bootloaderEntryName: Generic
