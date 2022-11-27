@@ -2,7 +2,7 @@
 
 PRESETS=('archiso')
 
-ALL_kver='/boot/vmlinuz-linux-xanmod-edge'
+ALL_kver='/boot/vmlinuz-linux-xanmod'
 ALL_config='/etc/mkinitcpio.conf'
 
-archiso_image="/boot/initramfs-linux-xanmod-edge.img"
+archiso_image="/boot/initramfs-linux-xanmod.img"

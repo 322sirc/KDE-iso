@@ -193,8 +193,8 @@ linux-firmware
 linux-firmware-marvell
 linux-firmware-qlogic
 linux-firmware-whence
-linux-xanmod-edge
-linux-xanmod-edge-headers
+linux-xanmod
+linux-xanmod-headers
 livecd-sounds
 lm_sensors
 logrotate
