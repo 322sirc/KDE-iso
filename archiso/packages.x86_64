@@ -255,6 +255,7 @@ os-prober
 packagekit-qt5
 pacman-contrib
 pacman-hooks
+pacman-mirrorup
 pamac-aur-git
 parallel
 partclone

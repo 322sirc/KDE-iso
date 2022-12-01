@@ -253,6 +253,12 @@ alias repoup="repo-add repo.db.tar.gz *.pkg.tar.zst"
 alias gitup="./git-v2.sh"
 alias gitset="./setup.sh"
 
+#update betterlockscreen images
+alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
+
+#give the list of all installed desktops - xsessions desktops
+alias xd="ls /usr/share/xsessions"
+
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
