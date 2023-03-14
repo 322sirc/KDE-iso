@@ -25,7 +25,7 @@ echo "################################################################## "
 echo
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 69-1"
+	archisoRequiredVersion="archiso 70-1"
 	buildFolder=$HOME"/KDE-build"
 	outFolder=$HOME"/KDE-iso"
 	archisoVersion=$(sudo pacman -Q archiso)
