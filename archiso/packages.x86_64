@@ -36,7 +36,7 @@ breeze
 brightnessctl
 brltty
 btrfs-progs
-catppuccin-cursors-git
+catppuccin-cursors-frappe
 conky-lua-archers-git
 crda
 cryptsetup
@@ -70,7 +70,7 @@ exfatprogs
 exo
 expac
 f2fs-tools
-fastfetch
+fastfetch-git
 fatresize
 feh
 ffmpegthumbnailer

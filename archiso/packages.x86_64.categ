@@ -174,7 +174,7 @@ htop
 bashtop
 dconf-editor
 neofetch
-fastfetch
+fastfetch-git
 hardinfo-gtk3
 pacman-mirrorup
 
@@ -468,7 +468,7 @@ Arc-Froly-Dark-gtk-theme
 #fluent-red-icon-theme
 fluent-round-icon-theme-git
 sunset-mine-kde
-catppuccin-cursors-git
+catppuccin-cursors-frappe
 wallpapers-personal
 whitesur-dark-red-nord-gtk-theme
 swish-sddm-theme

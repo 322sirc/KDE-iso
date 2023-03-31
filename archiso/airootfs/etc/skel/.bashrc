@@ -320,6 +320,7 @@ alias personal='cp -Rf /personal/* ~'
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
+#eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)"
 
 # reporting tools - install when not installed
 fastfetch
