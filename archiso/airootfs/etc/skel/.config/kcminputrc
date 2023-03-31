@@ -11,3 +11,4 @@ RepeatRate=25
 X11LibInputXAccelProfileFlat=false
 XLbInptNaturalScroll=true
 XLbInptPointerAcceleration=0.6
+cursorTheme=Catppuccin-Frappe-Maroon-Cursors
