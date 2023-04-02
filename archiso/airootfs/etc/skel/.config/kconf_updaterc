@@ -1,5 +1,10 @@
 updateInfoAdded=true
 
+[ark.upd]
+ctime=1680391239
+done=add-hamburgermenu-to-toolbar
+mtime=1677587267
+
 [breezehighcontrasttobreezedark.upd]
 ctime=1660219533
 done=BreezeHighContrastToBreezeDark
@@ -141,6 +146,11 @@ mtime=1659474629
 [okular.upd]
 ctime=1657219363
 mtime=1657023031
+
+[plasmashell-5.27-use-panel-thickness-in-default-group.upd]
+ctime=1680391239
+done=plasmashell-5.27-use-panel-thickness-in-default-group
+mtime=1678808214
 
 [spectacle_clipboard.upd]
 ctime=1661196488

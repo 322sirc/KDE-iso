@@ -29,6 +29,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][26][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=34
 
 [Containments][2][Applets][26][Configuration][Appearance]
@@ -83,6 +84,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][34][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=75
 
 [Containments][2][Applets][34][Configuration][Appearance]
@@ -271,6 +273,7 @@ DialogHeight=840
 DialogWidth=1120
 
 [Containments][9][Applets][16][Configuration][General]
+migrated=true
 raiseMaximumVolume=true
 
 [Containments][9][Applets][17]
@@ -333,6 +336,10 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.kalendar.contact
 
+[Containments][9][Applets][38]
+immutability=1
+plugin=org.kde.kscreen
+
 [Containments][9][ConfigDialog]
 DialogHeight=678
 DialogWidth=1094
@@ -341,11 +348,11 @@ DialogWidth=1094
 PreloadWeight=34
 
 [Containments][9][General]
-extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.volume
+extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.kalendar.contact,org.kde.kscreen
 hiddenItems=Yakuake,NoMachineMonitor
-knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.volume
+knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.kalendar.contact,org.kde.kscreen
 shownItems=caffeine
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,b52488d7-ddf1-441b-8924-ce53d478362e,35,file:///usr/share/backgrounds/wallpapers-personal/5235698.png,file:///usr/share/backgrounds/wallpapers-personal/1157048.jpg,file:///usr/share/backgrounds/wallpapers-personal/5468357.jpg,file:///usr/share/backgrounds/wallpapers-personal/2402033.jpg,file:///usr/share/backgrounds/wallpapers-personal/sunset_lake.jpg,file:///usr/share/backgrounds/wallpapers-personal/704175.png,file:///usr/share/backgrounds/wallpapers-personal/9.jpg,file:///usr/share/backgrounds/wallpapers-personal/2402020.jpg,file:///usr/share/backgrounds/wallpapers-personal/2401907.jpg,file:///usr/share/backgrounds/wallpapers-personal/78.jpg,file:///usr/share/backgrounds/wallpapers-personal/4.png,file:///usr/share/backgrounds/wallpapers-personal/3128426.jpg,file:///usr/share/backgrounds/wallpapers-personal/13.jpg,file:///usr/share/backgrounds/wallpapers-personal/pyramids.jpg,file:///usr/share/backgrounds/wallpapers-personal/101.jpg,file:///usr/share/backgrounds/wallpapers-personal/new_zealand_panorama.jpg,file:///usr/share/backgrounds/wallpapers-personal/2.jpg,file:///usr/share/backgrounds/wallpapers-personal/7.jpg,file:///usr/share/backgrounds/wallpapers-personal/3.jpg,file:///usr/share/backgrounds/wallpapers-personal/7991611.jpg,file:///usr/share/backgrounds/wallpapers-personal/5046024.jpg,file:///usr/share/backgrounds/wallpapers-personal/5046022.jpg,file:///usr/share/backgrounds/wallpapers-personal/14.jpg,file:///usr/share/backgrounds/wallpapers-personal/7991636.jpg,file:///usr/share/backgrounds/wallpapers-personal/7991627.jpg,file:///usr/share/backgrounds/wallpapers-personal/1.jpg,file:///usr/share/backgrounds/wallpapers-personal/8.jpg,file:///usr/share/backgrounds/wallpapers-personal/lighthouse.jpg,file:///usr/share/backgrounds/wallpapers-personal/planet.jpg,file:///usr/share/backgrounds/wallpapers-personal/12.jpg,file:///usr/share/backgrounds/wallpapers-personal/10.jpg,file:///usr/share/backgrounds/wallpapers-personal/6.png,file:///usr/share/backgrounds/wallpapers-personal/5673644.jpg,file:///usr/share/backgrounds/wallpapers-personal/lake_house.jpg,file:///usr/share/backgrounds/wallpapers-personal/5673704.jpg
-screenMapping=desktop:/xeropackage,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/reinstall-grub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/benchmarkcpu-linux,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xipnut,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/commands,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/zram-generator.conf.example,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/bluetoothmacs,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/DNS-change,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/githubtoken,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/hwinfo,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/i915.conf,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/cris-xero-dracul.tar.gz,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/GitHub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/udisksctl,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xero-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/dmesg,0,cd915191-804f-4d50-8fc3-f8e5c0279f54
+screenMapping=desktop:/calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/reinstall-grub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/commands,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xero-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/DNS-change,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/udisksctl,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/dmesg,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/bluetoothmacs,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/i915.conf,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xeropackage,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/benchmarkcpu-linux,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/hwinfo,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/cris-xero-dracul.tar.gz,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/zram-generator.conf.example,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/githubtoken,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xipnut,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/GitHub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54

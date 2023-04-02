@@ -1,6 +1,9 @@
 [Desktop Entry]
 DefaultProfile=XeroLinux.profile
 
+[General]
+ConfigVersion=1
+
 [KFileDialog Settings]
 iconViewIconSize=64
 
