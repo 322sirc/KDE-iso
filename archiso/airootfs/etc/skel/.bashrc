@@ -15,7 +15,9 @@ export MOZ_DISABLE_RDD_SANDBOX=1
 #export XMODIFIERS=@im=dbus
 #export QT_IM_MODULE=ibus
 
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
+#PS1='[\u@\H \W \!]$'
+PS1='\e[0;31m[\u@\h \W]\$ \e[m '
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -41,19 +43,26 @@ alias ll='ls -alFh'
 alias l='ls'
 alias l.="ls -A | egrep '^\.'"
 
-#fix obvious typo's
-#alias cd..='cd ..'
+#pacman
 alias pdw='pwd'
 alias udpate='sudo pacman -Syyu'
+alias upd='sudo pacman -Syyu'
 alias update='sudo pacman -Syyu'
 alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
 alias upqll='paru -Syu --noconfirm'
 alias upal='paru -Syu --noconfirm'
+alias upall="paru -Syu --noconfirm"
 
-##Personal
+alias search='sudo pacman -Qs'
+alias info='sudo pacman -Si '
+
 alias install="sudo pacman -S"
 alias remove="sudo pacman -Rs"
+
+alias rkeys='sudo pacman-key --refresh-keys'
+
+##Performance
 alias balance="powerprofilesctl set balanced"
 alias performance="powerprofilesctl set performance"
 alias power-saver="powerprofilesctl set power-saver"
@@ -71,24 +80,12 @@ alias df='df -h'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 
-#arcolinux logout unlock
-alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
-
-
 #continue download
 alias wget="wget -c"
-
-#merge new settings
-alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-
-# paru as aur helper - updates everything
-alias pksyua="paru -Syu --noconfirm"
-alias upall="paru -Syu --noconfirm"
-
 
 #copy/paste all content of /etc/skel over to home folder - backup of config created - beware
 #skel alias has been replaced with a script at /usr/local/bin/skel
@@ -99,12 +96,10 @@ alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 #copy shell configs
 alias cb='cp /etc/skel/.bashrc ~/.bashrc && exec bash'
 alias cz='cp /etc/skel/.zshrc ~/.zshrc && echo "Copied."'
-alias cf='cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish && echo "Copied."'
 
 #switch between bash and zsh
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
-alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 #switch between lightdm and sddm
 alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
@@ -189,7 +184,6 @@ alias nhosts="sudo $EDITOR /etc/hosts"
 alias nhostname="sudo $EDITOR /etc/hostname"
 alias nb="$EDITOR ~/.bashrc"
 alias nz="$EDITOR ~/.zshrc"
-alias nf="$EDITOR ~/.config/fish/config.fish"
 alias nneofetch="$EDITOR ~/.config/neofetch/config.conf"
 
 #reading logs with bat
@@ -216,10 +210,7 @@ alias fixkey="/usr/local/bin/fixkey"
 alias fixkeys="/usr/local/bin/fixkey"
 alias fix-key="/usr/local/bin/fixkey"
 alias fix-keys="/usr/local/bin/fixkey"
-#fix-sddm-config is no longer an alias but an application - part of ATT
-#alias fix-sddm-config="/usr/local/bin/arcolinux-fix-sddm-config"
-#alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
-#alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
+
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
@@ -233,31 +224,45 @@ alias unhblock="hblock -S none -D none"
 alias probe="sudo -E hw-probe -all -upload"
 alias sysfailed="systemctl list-units --failed"
 
+#give the list of all installed desktops - xsessions desktops
+alias xd="ls /usr/share/xsessions"
+
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
-#grub update
+#mine
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias mkinit="sudo mkinitcpio -P"
 alias mkernel="makepkg -s --skippgpcheck"
 alias upsum="updpkgsums"
 alias mkinstall="makepkg -sic"
 alias locinstall="sudo pacman -U"
-
+alias bash-refresh="source ~/.bashrc"
 
 #git
-
 alias clone="git clone"
+alias gcl="git clone"
 alias repoup="repo-add repo.db.tar.gz *.pkg.tar.zst"
 alias gitup="./git-v2.sh"
 alias gitset="./setup.sh"
 
-#update betterlockscreen images
-alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
+#Copy/Remove files/dirs
+alias rmd='rm -r'
+alias srm='sudo rm'
+alias srmd='sudo rm -r'
+alias cpd='cp -R'
+alias scpd='sudo cp -R'
 
-#give the list of all installed desktops - xsessions desktops
-alias xd="ls /usr/share/xsessions"
+#cd/ aliases
+alias home='cd ~'
+alias etc='cd /etc/'
+alias conf='cd ~/.config'
+alias desk='cd ~/Desktop'
+alias pics='cd ~/Pictures'
+alias dldz='cd ~/Downloads'
+alias docs='cd ~/Documents'
+alias music='cd ~/Music'
 
 
 # # ex = EXtractor for all kinds of archives
@@ -288,14 +293,6 @@ ex ()
 }
 
 
-#snapper aliases
-alias snapcroot="sudo snapper -c root create-config /"
-alias snapchome="sudo snapper -c home create-config /home"
-alias snapli="sudo snapper list"
-alias snapcr="sudo snapper -c root create"
-alias snapch="sudo snapper -c home create"
-
-
 #arcolinux applications
 alias att="archlinux-tweak-tool"
 alias adt="arcolinux-desktop-trasher"
@@ -308,8 +305,6 @@ alias atm="arcolinux-tellme"
 alias avs="arcolinux-vbox-share"
 alias awa="arcolinux-welcome-app"
 
-#remove
-alias rmgitcache="rm -r ~/.cache/git"
 
 #moving your personal files and folders from /personal to ~
 alias personal='cp -Rf /personal/* ~'
@@ -319,8 +314,9 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
-#eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)"
+# eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
+
 
 # reporting tools - install when not installed
 fastfetch

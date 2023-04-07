@@ -127,6 +127,9 @@ shadeSortColumn=true
 smallestReadableFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 widgetStyle=kvantum
 
+[Icons]
+Theme=Fluent-red-dark
+
 [KDE]
 AnimationDurationFactor=2.82842712474619
 ColorScheme=SunsetDark
@@ -155,6 +158,10 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=138
 View Style=Detail
+
+[KScreen]
+ScaleFactor=1.5
+ScreenScaleFactors=eDP-1=1.5;HDMI-1=1.5;DP-1=1.5;DP-2=1.5;DP-3=1.5;DP-4=1.5;
 
 [KShortcutsDialog Settings]
 Dialog Size=765,480
