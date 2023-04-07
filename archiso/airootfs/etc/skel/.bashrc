@@ -55,12 +55,14 @@ alias upal='paru -Syu --noconfirm'
 alias upall="paru -Syu --noconfirm"
 
 alias search='sudo pacman -Qs'
-alias info='sudo pacman -Si '
+alias info='sudo pacman -Si'
+alias searchf='sudo pacman -Fy'
 
 alias install="sudo pacman -S"
 alias remove="sudo pacman -Rs"
 
 alias rkeys='sudo pacman-key --refresh-keys'
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
 ##Performance
 alias balance="powerprofilesctl set balanced"
@@ -151,9 +153,6 @@ alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | n
 
 #iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
-
-#Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
 #clear
 alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
