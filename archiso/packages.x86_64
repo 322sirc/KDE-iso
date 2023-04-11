@@ -20,13 +20,14 @@ arcolinux-keyring
 arcolinux-mirrorlist-git
 ark
 asciinema
-assimp
 audacious
 b43-fwcutter
 base
 base-devel
 bash-completion
 bashtop
+bat
+bat-extras
 bind
 blueberry
 bluedevil
@@ -74,11 +75,14 @@ f2fs-tools
 fastfetch-git
 fatresize
 feh
+ffmpeg
 ffmpegthumbnailer
 ffmpegthumbs
 file-roller
 firefox
 flameshot
+flatpak
+flatseal
 fluent-round-icon-theme-git
 freetype2
 fsarchiver
@@ -88,6 +92,7 @@ gcc
 geoclue
 git
 gnome-disk-utility
+gnome-keyring
 gnome-logs
 gnome-terminal-transparency
 gnu-netcat
@@ -299,6 +304,7 @@ rsync
 rxvt-unicode-terminfo
 screen
 sddm
+sddm-kcm
 sddm-theme-catppuccin
 sddm-kcm
 sdparm

@@ -170,6 +170,8 @@ xsettingsd
 mkinitcpio-openswap
 htop
 bashtop
+bat
+bat-extras
 dconf-editor
 neofetch
 fastfetch-git
@@ -217,6 +219,7 @@ bluez-utils
 xf86-input-evdev
 xf86-video-fbdev
 xf86-video-qxl
+xf86-video-vmware
 xf86-input-void
 xf86-input-wacom
 mesa
@@ -233,7 +236,6 @@ vulkan-mesa-layers
 vulkan-tools
 onevpl-intel-gpu
 onevpl-cpu
-intel-gpu-tools
 
 meson
 
@@ -269,6 +271,7 @@ xf86-input-vmmouse
 
 ###tumbler
 tumbler
+ffmpeg
 ffmpegthumbs
 ffmpegthumbnailer
 freetype2
@@ -336,7 +339,6 @@ kglobalaccel
 libksysguard
 kde-dev-utils
 kscreenlocker
-xdg-user-dirs
 knotifications
 systemsettings
 kde-gtk-config
@@ -358,6 +360,8 @@ plasma-integration
 plasma-thunderbolt
 plasma-systemmonitor
 plasma-browser-integration
+plasma-wayland-session
+plasma-wayland-protocols
 
 ## Utilities
 
@@ -430,13 +434,14 @@ file-roller
 gnome-terminal-transparency
 gnome-logs
 gnome-disk-utility
+gnome-keyring
 gparted
 parallel
 sublime-text-4
 spotify-adblock
 stacer-bin
 the_platinum_searcher-bin
-tilix-git
+tilix
 vlc
 
 ###conky
@@ -482,6 +487,8 @@ latte-dock-git
 archlinux-appstream-data-pamac
 libpamac-git
 pamac-aur-git
+flatpak
+flatseal
 intel-compute-runtime
 nemo-compare
 nemo-meld-compare
