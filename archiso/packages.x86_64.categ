@@ -409,7 +409,6 @@ arcolinux-mirrorlist-git
 arcolinux-keyring
 
 archlinux-logout-git
-archlinux-logout-themes-git
 #archlinux-tweak-tool-git
 
 ###applications
@@ -480,7 +479,7 @@ kvantum-theme-catppuccin-git
 sddm-theme-catppuccin
 
 #tools
-kvantum-qt5
+kvantum
 latte-dock-git
 
 #apps-personal-repo

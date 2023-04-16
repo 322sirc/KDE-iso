@@ -39,7 +39,7 @@ welcomeExpandingLogo:   true
 #  - "normal" or unset, expand as needed, use *windowSize*
 #  - "fullscreen", start as large as possible, ignore *windowSize*
 #  - "noexpand", don't expand automatically, use *windowSize*
-windowExpanding:    normal
+windowExpanding:    noexpand
 
 # Size of Calamares window, expressed as w,h. Both w and h
 # may be either pixels (suffix px) or font-units (suffix em).
@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1024px,735px
+windowSize: 1024px,720px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -123,11 +123,11 @@ navigation: widget
 strings:
     productName:         ALCI
     shortProductName:    alci
-    version:             2022.12.01
-    shortVersion:        2022.12
+    version:             2023.04.14
+    shortVersion:        2023.04
     versionedName:       ALCI
     shortVersionedName:  alci
-    bootloaderEntryName: Generic
+    bootloaderEntryName: Arch-KDE
 
 # These images are loaded from the branding module directory.
 #
@@ -175,10 +175,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#240515"
-   sidebarText:          "#F64F87"
-   sidebarTextSelect:    "#471943"
-   sidebarTextHighlight: "#F598D6"
+   SidebarBackground:    "#240515"
+   SidebarText:          "#F64F87"
+   SidebarTextSelect:    "#471943"
+   SidebarTextHighlight: "#F598D6"
 
 ### SLIDESHOW
 #

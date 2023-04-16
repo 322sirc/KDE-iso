@@ -14,7 +14,6 @@ archiso
 archlinux-appstream-data-pamac
 archlinux-keyring
 archlinux-logout-git
-archlinux-logout-themes-git
 #archlinux-tweak-tool-git
 arcolinux-keyring
 arcolinux-mirrorlist-git
@@ -171,7 +170,7 @@ kscreenlocker
 ksshaskpass
 ksysguard
 ksystemlog
-kvantum-qt5
+kvantum
 kvantum-theme-catppuccin-git
 kwin
 kwin-scripts-forceblur

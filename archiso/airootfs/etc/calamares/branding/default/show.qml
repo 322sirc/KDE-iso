@@ -37,14 +37,16 @@ Presentation
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
-        anchors.centerIn: parent
+        anchors.fill: parent
     	}
 
     Text {
         anchors.horizontalCenter: background1.horizontalCenter
         anchors.top: background1.bottom
-        text: "Welcome to ALCI "
+        text: "Welcome to"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -60,8 +62,10 @@ Presentation
         id: background2
         source: "2-alci.png"
         width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
-        anchors.centerIn: parent
+        anchors.fill: parent
     	}
 
     Text {
