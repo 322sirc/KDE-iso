@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="archlinux"
+iso_name="KDE-iso"
 iso_label="ARCH_$(date +%Y%m)"
 iso_publisher="Arch Linux <https://archlinux.org>"
 iso_application="Arch Linux Live/Rescue CD"
@@ -27,4 +27,5 @@ file_permissions=(
   ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
   ["/usr/local/bin/before"]="0:0:755"
   ["/usr/local/bin/final"]="0:0:755"
+  ["/etc/skel/conkyrun.sh"]="0:0:755"
 )

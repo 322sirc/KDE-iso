@@ -212,6 +212,7 @@ mc
 mdadm
 meld
 memtest86+
+memtest86+-efi
 mesa
 mesa-utils
 mesa-vdpau

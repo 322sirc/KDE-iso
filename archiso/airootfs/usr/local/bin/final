@@ -13,7 +13,7 @@ echo "MAKEFLAGS="-j$(nproc)"" >> /etc/makepkg.conf
 
 echo "Change Cursor Globally "
 echo "#################################"
-sed -i "s/Inherits=Adwaita/Inherits=Catppuccin-Pink-Cursors/g" /usr/share/icons/default/index.theme
+sed -i "s/Inherits=Adwaita/Inherits=Catppuccin-Maroon-Cursors/g" /usr/share/icons/default/index.theme
 
 echo "Settings: ConsoleFonts "
 echo "#################################"
@@ -22,3 +22,7 @@ echo "FONT=ter-132b" >> /etc/vconsole.conf
 echo "Enable fstrim.service "
 echo "#################################"
 sudo systemctl enable fstrim.timer
+
+echo "Fixing SDDM.conf User"
+echo "#################################"
+sed -i "s/User=liveuser/User=/g" /etc/sddm.conf.d/kde_settings.conf
