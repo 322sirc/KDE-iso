@@ -60,7 +60,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-alci.png"
+        source: "2-kde.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background2.horizontalCenter
         anchors.top: background2.bottom
-        text: "ALCI"
+        text: "KDE-Arch custom a spinoff from ALCI"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

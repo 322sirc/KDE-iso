@@ -43,7 +43,7 @@ The examples are not exhaustive.
 
 #sidebarMenuApp {
 	padding: 3px;
-	background-color: #240515;
+	background-color: #222244;
 }
 
 QWidget {
