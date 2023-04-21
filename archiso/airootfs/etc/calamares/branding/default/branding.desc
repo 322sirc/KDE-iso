@@ -27,7 +27,7 @@ welcomeStyleCalamares:   false
 # up beyond its natural size? If false, the image does not grow
 # with the window but remains the same size throughout (this
 # may have surprising effects on HiDPI monitors).
-welcomeExpandingLogo:   true
+welcomeExpandingLogo:  true
 
 ### WINDOW CONFIGURATION
 #
@@ -39,7 +39,7 @@ welcomeExpandingLogo:   true
 #  - "normal" or unset, expand as needed, use *windowSize*
 #  - "fullscreen", start as large as possible, ignore *windowSize*
 #  - "noexpand", don't expand automatically, use *windowSize*
-windowExpanding:    noexpand
+windowExpanding: noexpand
 
 # Size of Calamares window, expressed as w,h. Both w and h
 # may be either pixels (suffix px) or font-units (suffix em).

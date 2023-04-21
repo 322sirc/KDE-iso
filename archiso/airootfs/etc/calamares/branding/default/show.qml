@@ -37,7 +37,6 @@ Presentation
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -62,7 +61,6 @@ Presentation
         id: background2
         source: "2-kde.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
