@@ -235,8 +235,8 @@ libva-utils
 vulkan-intel
 vulkan-mesa-layers
 vulkan-tools
-onevpl-intel-gpu
-onevpl-cpu
+onevpl-intel-gpu-git
+onevpl-cpu-git
 
 meson
 

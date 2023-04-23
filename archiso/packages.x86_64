@@ -248,8 +248,8 @@ ntp
 numlockx
 nvme-cli
 oh-my-posh-bin
-onevpl-cpu
-onevpl-intel-gpu
+onevpl-cpu-git
+onevpl-intel-gpu-git
 open-iscsi
 open-vm-tools
 openconnect
