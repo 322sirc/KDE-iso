@@ -2,15 +2,15 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR="Arch"
-GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 splash mitigations=off nowatchdog nvme_load=yes ipv6.disable_ipv6=1"
+GRUB_DISTRIBUTOR="KDE-Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 splash mitigations=off nowatchdog nvme_load=yes ipv6.disable_ipv6=1 ibt=off psi=1"
 GRUB_CMDLINE_LINUX=""
 
 # Preload both GPT and MBR modules so that they are not missed
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
 
 # Uncomment to enable booting from LUKS encrypted devices
-GRUB_ENABLE_CRYPTODISK=y
+#GRUB_ENABLE_CRYPTODISK=y
 
 # Set to 'countdown' or 'hidden' to change timeout behavior,
 # press ESC key to display menu.
@@ -52,3 +52,6 @@ GRUB_THEME="/usr/share/grub/themes/iso-mod/theme.txt"
 # Uncomment to make GRUB remember the last selection. This requires
 # setting 'GRUB_DEFAULT=saved' above.
 #GRUB_SAVEDEFAULT="true"
+
+# Check for other operating systems
+#GRUB_DISABLE_OS_PROBER=auto

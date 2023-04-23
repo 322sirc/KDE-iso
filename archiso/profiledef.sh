@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="KDE-iso"
-iso_label="ARCH_$(date +%Y%m)"
+iso_label="KDE-Arch_$(date +%Y%m)"
 iso_publisher="Arch Linux <https://archlinux.org>"
 iso_application="Arch Linux Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"

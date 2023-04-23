@@ -24,6 +24,12 @@ tput sgr0
 echo "################################################################## "
 echo
 
+	
+	#desktop="plasma"
+	#lightdmDesktop="plasma"
+
+	#ArchLinuxCalamaresInstallationVersion='v22.09.15'
+
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 70-1"
 	buildFolder=$HOME"/KDE-build"
@@ -213,10 +219,10 @@ echo
 # 	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/archiso/airootfs/etc/lightdm/lightdm.conf
 # 	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/archiso/airootfs/etc/lightdm/lightdm.conf
 #
-# 	echo "Adding time to /etc/dev-rel"
-# 	date_build=$(date -d now)
-# 	echo "Iso build on : "$date_build
-# 	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
+echo "Adding time to /etc/dev-rel"
+ 	date_build=$(date -d now)
+ 	echo "Iso build on : "$date_build
+ 	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
 
 
 #echo
@@ -271,11 +277,24 @@ echo
 # 	echo "########################"
 # 	md5sum $isoLabel | tee $isoLabel.md5
 # 	echo
+
  	echo "Moving pkglist.x86_64.txt"
  	echo "########################"
 	rename=$(date +%Y-%m-%d)
  	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/KDE-iso-$rename-pkglist.txt
 
+
+echo
+echo "##################################################################"
+tput setaf 2
+echo "Phase 9 :"
+echo "- Making sure we start with a clean slate next time"
+tput sgr0
+echo "################################################################## "
+echo
+
+	#echo "Deleting the build folder if one exists - takes some time"
+	#[ -d $buildFolder ] && sudo rm -rf $buildFolder
 
 echo
 echo "##################################################################"
