@@ -3,6 +3,10 @@ echo "Copy /etc/skel to /root"
 echo "#################################"
 cp -aT /etc/skel/ /root/
 
+echo "Permission of root"
+echo "#################################"
+chmod -v 750 /root
+
 echo "Settings: Mozilla Firefox touchscreen scrolling"
 echo "#################################"
 echo "MOZ_USE_XINPUT2 DEFAULT=1" >> /etc/security/pam_env.conf
@@ -26,3 +30,8 @@ sudo systemctl enable fstrim.timer
 echo "Fixing SDDM.conf User"
 echo "#################################"
 sed -i "s/User=liveuser/User=/g" /etc/sddm.conf.d/kde_settings.conf
+
+echo "Applying Flatpak GTK Overrides"
+echo "#################################"
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --env=GTK_THEME=Catppuccin-Frappe-Standard-Maroon-Dark
