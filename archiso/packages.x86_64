@@ -89,6 +89,7 @@ fuse2
 fuse3
 gcc
 geoclue
+gestures
 git
 gnome-disk-utility
 gnome-keyring
@@ -182,7 +183,6 @@ lftp
 libfido2
 libgsf
 libinput-gestures
-libinput_gestures_qt
 libkscreen
 libksysguard
 libopenraw

@@ -62,6 +62,7 @@ alias install="sudo pacman -S"
 alias remove="sudo pacman -Rs"
 
 alias rkeys='sudo pacman-key --refresh-keys'
+alias refresh-keys='sudo pacman-key --refresh-keys'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
 ##Performance
@@ -135,6 +136,7 @@ alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --so
 alias mirrorxx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 20 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
 alias ram='rate-mirrors --allow-root --disable-comments arch | sudo tee /etc/pacman.d/mirrorlist'
 alias rams='rate-mirrors --allow-root --disable-comments --protocol https arch  | sudo tee /etc/pacman.d/mirrorlist'
+alias rate-mirror="rate-mirrors --allow-root --protocol https arch  | sudo tee /etc/pacman.d/mirrorlist && sudo pacman -Sy"
 
 
 
@@ -157,7 +159,8 @@ alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 #clear
 alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
 
-#search content with ripgrep
+#search content with ripgrepalias bash-refresh="source ~/.bashrc"
+
 alias rg="rg --sort path"
 
 #get the error messages from journalctl
@@ -238,6 +241,8 @@ alias upsum="updpkgsums"
 alias mkinstall="makepkg -sic"
 alias locinstall="sudo pacman -U"
 alias bash-refresh="source ~/.bashrc"
+alias refresh-keys='sudo pacman-key --refresh-keys'
+alias rate-mirror="rate-mirrors --allow-root --protocol https arch  | sudo tee /etc/pacman.d/mirrorlist && sudo pacman -Sy"
 
 #git
 alias clone="git clone"

@@ -7,9 +7,9 @@
  Selection=any
  Extensions=dir;
 
- Name=Kitty
- Comment=Open the 'kitty' terminal in the selected folder
- Exec=kitty --working-directory="%F"
+ Name=Alacritty
+ Comment=Open the 'Alacritty' terminal in the selected folder
+ Exec=alacritty --working-directory="%F"
  Icon-Name=terminal
  Selection=any
  Extensions=dir;
