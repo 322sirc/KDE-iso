@@ -178,6 +178,7 @@ neofetch
 fastfetch-git
 hardinfo-gtk3
 pacman-mirrorup
+thermald
 
 ##### network
 networkmanager
