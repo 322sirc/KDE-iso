@@ -149,8 +149,6 @@ wget
 
 alci-calamares
 
-#alci-calamares-config-xanmod-edge
-
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -255,11 +253,7 @@ gst-plugins-ugly
 gstreamer
 gstreamer-vaapi
 wireplumber
-pipewire-jack
-pipewire
-pipewire-alsa
-pipewire-pulse
-pipewire-v4l2
+pipewire-support
 
 v4l-utils
 
@@ -293,8 +287,8 @@ fuse3
 gcc
 git
 hwinfo
-linux-xanmod
-linux-xanmod-headers
+linux
+linux-headers
 sound-theme-freedesktop
 soundtouch
 most
@@ -476,6 +470,8 @@ sunset-mine-kde
 catppuccin-cursors-frappe
 catppuccin-gtk-theme-frappe
 wallpapers-personal
+wallpapers-1
+wallpapers-lexica
 whitesur-dark-red-nord-gtk-theme
 swish-sddm-theme
 kvantum-theme-catppuccin-git

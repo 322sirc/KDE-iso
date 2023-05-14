@@ -27,6 +27,10 @@ echo "Enable fstrim.service "
 echo "#################################"
 sudo systemctl enable fstrim.timer
 
+echo "Enable thermald.service "
+echo "#################################"
+sudo systemctl enable thermald.service
+
 echo "Fixing SDDM.conf User"
 echo "#################################"
 sed -i "s/User=liveuser/User=/g" /etc/sddm.conf.d/kde_settings.conf
