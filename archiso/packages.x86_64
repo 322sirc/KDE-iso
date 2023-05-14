@@ -71,7 +71,7 @@ exfatprogs
 exo
 expac
 f2fs-tools
-fastfetch-git
+#fastfetch-git
 fatresize
 feh
 ffmpeg
@@ -237,6 +237,7 @@ nemo-fileroller
 nemo-meld-compare
 neofetch
 nerd-fonts-hack
+nerd-fonts-lekton
 network-manager-applet
 networkmanager
 nfs-utils
@@ -247,7 +248,7 @@ ntfs-3g
 ntp
 numlockx
 nvme-cli
-oh-my-posh-bin
+#oh-my-posh-bin
 onevpl-git
 onevpl-cpu-git
 onevpl-intel-gpu-git

@@ -15,9 +15,8 @@ export MOZ_DISABLE_RDD_SANDBOX=1
 #export XMODIFIERS=@im=dbus
 #export QT_IM_MODULE=ibus
 
-#PS1='[\u@\h \W]\$ '
-#PS1='[\u@\H \W \!]$'
-PS1='\e[0;31m[\u@\h \W]\$ \e[m '
+export PS1='\033[0;1;34m\w \@ $ \033[1;32m'
+export PS0='\033[0m'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -316,15 +315,15 @@ alias personal='cp -Rf /personal/* ~'
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
-[[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
+#[[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)"
+#eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)"
 # eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
 
 
 # reporting tools - install when not installed
-fastfetch
-#neofetch
+#fastfetch
+neofetch
 #screenfetch
 #alsi
 #paleofetch

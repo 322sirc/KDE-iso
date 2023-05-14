@@ -173,7 +173,7 @@ bat
 bat-extras
 dconf-editor
 neofetch
-fastfetch-git
+#fastfetch-git
 hardinfo-gtk3
 pacman-mirrorup
 thermald
@@ -452,6 +452,7 @@ conky-lua-archers-git
 adobe-source-sans-fonts
 noto-fonts
 nerd-fonts-hack
+nerd-fonts-lekton
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -490,7 +491,7 @@ flatseal
 intel-compute-runtime
 nemo-compare
 nemo-meld-compare
-oh-my-posh-bin
+#oh-my-posh-bin
 libinput-gestures
 gestures
 
