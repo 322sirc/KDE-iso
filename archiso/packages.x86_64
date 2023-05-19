@@ -255,7 +255,6 @@ onevpl-intel-gpu-git
 open-iscsi
 open-vm-tools
 openconnect
-openresolv
 openssh
 openvpn
 os-prober
@@ -271,6 +270,7 @@ partimage
 paru-bin
 pcsclite
 pipewire-support
+pipewire-jack
 plasma-browser-integration
 plasma-desktop
 plasma-framework

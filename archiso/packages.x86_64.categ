@@ -82,7 +82,6 @@ nvme-cli
 open-iscsi
 open-vm-tools
 openconnect
-openresolv
 openssh
 openvpn
 partclone
@@ -254,6 +253,7 @@ gstreamer
 gstreamer-vaapi
 wireplumber
 pipewire-support
+pipewire-jack
 
 v4l-utils
 
