@@ -3,127 +3,142 @@ update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=56,56,56
-ColorAmount=0
-ColorEffect=0
-ContrastAmount=0.65
-ContrastEffect=1
+Color=48, 52, 70
+ColorAmount=0.30000000000000004
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
 Enable=
-IntensityAmount=0.1
-IntensityEffect=2
+IntensityAmount=-1
+IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
-ContrastEffect=2
-Enable=false
+Color=48, 52, 70
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=130,130,130
-BackgroundNormal=44,48,61
-DecorationFocus=55,60,75
-DecorationHover=230,100,100
-ForegroundActive=108,117,147
-ForegroundInactive=76,83,104
-ForegroundLink=252,110,110
-ForegroundNegative=218,68,83
-ForegroundNeutral=252,204,192
-ForegroundNormal=121,134,168
-ForegroundPositive=39,174,96
-ForegroundVisited=113,122,153
+BackgroundAlternate=#f2d5cf
+BackgroundNormal=65, 69, 89
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [Colors:Complementary]
-BackgroundAlternate=62,67,84
-BackgroundNormal=52,57,71
-DecorationFocus=49,91,239
-DecorationHover=49,91,239
-ForegroundActive=246,116,0
-ForegroundInactive=136,136,136
-ForegroundLink=49,91,239
-ForegroundNegative=237,21,21
-ForegroundNeutral=201,206,59
-ForegroundNormal=222,222,222
-ForegroundPositive=17,209,22
-ForegroundVisited=49,91,239
+BackgroundAlternate=35, 38, 52
+BackgroundNormal=41, 44, 60
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [Colors:Header]
-BackgroundAlternate=32,35,44
+BackgroundAlternate=35, 38, 52
+BackgroundNormal=41, 44, 60
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [Colors:Selection]
-BackgroundAlternate=79,127,239
-BackgroundNormal=230,100,100
-DecorationFocus=60,60,60
-DecorationHover=234,234,234
-ForegroundActive=108,117,147
-ForegroundInactive=71,77,97
-ForegroundLink=252,110,110
-ForegroundNegative=218,68,83
-ForegroundNeutral=252,204,192
-ForegroundNormal=255,255,255
-ForegroundPositive=39,174,96
-ForegroundVisited=113,122,153
+BackgroundAlternate=#f2d5cf
+BackgroundNormal=#f2d5cf
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=41, 44, 60
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=35, 38, 52
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [Colors:Tooltip]
-BackgroundAlternate=60,66,82
-BackgroundNormal=50,50,50
-DecorationFocus=60,60,60
-DecorationHover=234,234,234
-ForegroundActive=108,117,147
-ForegroundInactive=76,83,104
-ForegroundLink=252,110,110
-ForegroundNegative=218,68,83
-ForegroundNeutral=252,204,192
-ForegroundNormal=222,222,222
-ForegroundPositive=39,174,96
-ForegroundVisited=113,122,153
+BackgroundAlternate=27,25,35
+BackgroundNormal=48, 52, 70
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [Colors:View]
-BackgroundAlternate=55,60,75
-BackgroundNormal=58,64,80
-DecorationFocus=55,60,75
-DecorationHover=230,100,100
-ForegroundActive=108,117,147
-ForegroundInactive=76,83,104
-ForegroundLink=252,110,110
-ForegroundNegative=218,68,83
-ForegroundNeutral=252,204,192
-ForegroundNormal=234,234,234
-ForegroundPositive=39,174,96
-ForegroundVisited=113,122,153
+BackgroundAlternate=41, 44, 60
+BackgroundNormal=48, 52, 70
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [Colors:Window]
-BackgroundAlternate=55,60,75
-BackgroundNormal=57,62,78
-DecorationFocus=180,180,180
-DecorationHover=130,130,130
-ForegroundActive=108,117,147
-ForegroundInactive=76,83,104
-ForegroundLink=252,110,110
-ForegroundNegative=218,68,83
-ForegroundNeutral=252,204,192
-ForegroundNormal=222,222,222
-ForegroundPositive=39,174,96
-ForegroundVisited=113,122,153
+BackgroundAlternate=35, 38, 52
+BackgroundNormal=41, 44, 60
+DecorationFocus=#f2d5cf
+DecorationHover=65, 69, 89
+ForegroundActive=239, 159, 118
+ForegroundInactive=165, 173, 206
+ForegroundLink=#f2d5cf
+ForegroundNegative=231, 130, 132
+ForegroundNeutral=229, 200, 144
+ForegroundNormal=198, 208, 245
+ForegroundPositive=166, 209, 137
+ForegroundVisited=202, 158, 230
 
 [DirSelect Dialog]
-DirSelectDialog Size=1181,1078
-History Items[$e]=file:///run,file:$HOME/Pictures,file:$HOME/Pictures,file:///usr/share/wallpapers
+DirSelectDialog Size=877,581
+History Items[$e]=file:///usr/share/backgrounds/lexica,file:///usr,file:///run,file:$HOME/Pictures,file:$HOME/Pictures,file:///usr/share/wallpapers
 
 [General]
 BrowserApplication=firefox.desktop
+ColorScheme=CatppuccinFrappeRosewater
 ColorSchemeHash=3b2fa445c3cb22edec213fbe09bdb649f1c99271
 Name=Layan
 XftHintStyle=hintslight
 XftSubPixel=rgb
 accentColorFromWallpaper=false
-fixed=Inconsolata,11,-1,5,50,0,0,0,0,0
+fixed=Lekton Nerd Font Mono,11,-1,5,50,0,0,0,0,0
+font=Helvetica Now Display,11,-1,5,50,0,0,0,0,0
+menuFont=Helvetica Now Display,11,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+smallestReadableFont=Helvetica Now Display,10,-1,5,50,0,0,0,0,0
+toolBarFont=Helvetica Now Display,11,-1,5,50,0,0,0,0,0
 widgetStyle=kvantum
 
 [Icons]
@@ -169,9 +184,10 @@ Dialog Size=765,480
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=65,70,85
-activeBlend=171,171,171
-activeForeground=222,222,222
-inactiveBackground=55,60,75
-inactiveBlend=234,234,234
-inactiveForeground=234,234,234
+activeBackground=48,52,70
+activeBlend=198,208,245
+activeFont=Helvetica Now Display,11,-1,5,50,0,0,0,0,0
+activeForeground=198,208,245
+inactiveBackground=35,38,52
+inactiveBlend=165,173,206
+inactiveForeground=165,173,206

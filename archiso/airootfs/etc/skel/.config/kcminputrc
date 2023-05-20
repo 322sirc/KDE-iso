@@ -8,7 +8,7 @@ RepeatDelay=600
 RepeatRate=25
 
 [Mouse]
-X11LibInputXAccelProfileFlat=false
+X11LibInputXAccelProfileFlat=true
 XLbInptNaturalScroll=true
 XLbInptPointerAcceleration=0.6
 cursorTheme=Catppuccin-Frappe-Maroon-Cursors

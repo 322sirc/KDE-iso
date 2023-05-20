@@ -1,12 +1,11 @@
 import QtQuick 2.0
 
 ListModel {
-    id: serversModel
+    id: stationsModel
 
     ListElement {
         name: "Example"
         hostname: "example.com"
         active: false
-        status: 0
     }
 }

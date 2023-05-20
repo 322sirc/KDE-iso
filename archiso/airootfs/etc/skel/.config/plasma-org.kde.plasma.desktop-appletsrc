@@ -120,8 +120,8 @@ DialogHeight=840
 DialogWidth=1120
 
 [Containments][2][Applets][35][Configuration][General]
-servers=[{"status":0,"active":true,"hostname":"https://stream.sunshine-live.de/vocaltrance/mp3-192/","name":"Sunshinelive-VocalTrance"},{"status":0,"active":true,"hostname":"http://148.251.43.231:8143/stream","name":"DI-Vocal Trance"},{"status":0,"active":true,"hostname":"https://mp3.stream.tb-group.fm/trb.mp3?","name":"TranceBase"},{"status":0,"active":true,"hostname":"https://stream.sunshine-live.de/trance/mp3-192/","name":"Sunshine-trance"},{"status":0,"active":true,"hostname":"http://stream-tx3.radioparadise.com/aac-128","name":"PARADISE"},{"status":0,"active":true,"hostname":"http://206.223.161.107:80/192k","name":"AH.Fm"},{"status":0,"active":true,"hostname":"http://cast.streams.ovh:8008/stream","name":"trance320"},{"status":0,"active":true,"hostname":"http://orion.shoutca.st:8143/stream","name":"VocalTrance320"},{"status":0,"active":true,"hostname":"https://hls-01-radiorecord.hostingradio.ru/record-trancehits/playlist.m3u8","name":"RadioRecord"}]
-version=1.8
+servers=[{"status":0,"active":true,"hostname":"https://stream.sunshine-live.de/vocaltrance/mp3-192/","name":"Sunshinelive-VocalTrance"},{"status":0,"active":true,"hostname":"https://dfm-trance.hostingradio.ru/trance96.aacp","name":"DFM- VocalTrance"},{"status":0,"active":true,"hostname":"https://stream.technolovers.fm/vocal-trance?ref=radiobrowser","name":"Technolovers- VocalTrance"},{"status":0,"active":true,"hostname":"https://mp3.stream.tb-group.fm/trb.mp3?","name":"TranceBase"},{"status":0,"active":true,"hostname":"https://stream.sunshine-live.de/trance/mp3-192/","name":"Sunshine-trance"},{"status":0,"active":true,"hostname":"http://206.223.161.107:80/192k","name":"AH.Fm"},{"status":0,"active":true,"hostname":"http://cast.streams.ovh:8008/stream","name":"trance320"},{"status":0,"active":true,"hostname":"http://strm112.1.fm/atr_mobile_mp3","name":"1.FM-Amsterdam Trance"}]
+version=2.0
 
 [Containments][2][Applets][38][Configuration]
 PreloadWeight=92
@@ -179,7 +179,7 @@ PreloadWeight=100
 SystrayContainmentId=9
 
 [Containments][2][ConfigDialog]
-DialogHeight=99
+DialogHeight=83
 DialogWidth=2560
 
 [Containments][2][Configuration]
@@ -188,17 +188,6 @@ PreloadWeight=34
 [Containments][2][General]
 AppletOrder=4;27;26;28;3;35;6;7;5;31;34;25;8
 
-[Containments][36]
-ItemGeometries-2560x1600=
-ItemGeometriesHorizontal=
-activityId=b52488d7-ddf1-441b-8924-ce53d478362e
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
 [Containments][37][ConfigDialog]
 DialogHeight=840
 DialogWidth=1120
@@ -206,6 +195,26 @@ DialogWidth=1120
 [Containments][37][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Sunset-dark/contents/images/2560x1600.png
 SlidePaths=/usr/share/wallpapers
+
+[Containments][39]
+ItemGeometries-1600x900=
+ItemGeometries-2560x1600=
+ItemGeometriesHorizontal=
+activityId=d9ee8cf3-6ad4-4db7-a656-e0b94aaeb962
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.slideshow
+
+[Containments][39][ConfigDialog]
+DialogHeight=630
+DialogWidth=840
+
+[Containments][39][Wallpaper][org.kde.slideshow][General]
+Image=file:///usr/share/backgrounds/lexica/The abstract painting artistic flat illustration .jpg
+SlidePaths=/usr/share/backgrounds/lexica/
 
 [Containments][7][Applets][15][Configuration]
 PreloadWeight=0
@@ -217,6 +226,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=672
+popupWidth=672
 wallpaperplugin=org.kde.image
 
 [Containments][9][Applets][10]
@@ -355,4 +366,4 @@ shownItems=caffeine
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,b52488d7-ddf1-441b-8924-ce53d478362e,35,file:///usr/share/backgrounds/wallpapers-personal/5235698.png,file:///usr/share/backgrounds/wallpapers-personal/1157048.jpg,file:///usr/share/backgrounds/wallpapers-personal/5468357.jpg,file:///usr/share/backgrounds/wallpapers-personal/2402033.jpg,file:///usr/share/backgrounds/wallpapers-personal/sunset_lake.jpg,file:///usr/share/backgrounds/wallpapers-personal/704175.png,file:///usr/share/backgrounds/wallpapers-personal/9.jpg,file:///usr/share/backgrounds/wallpapers-personal/2402020.jpg,file:///usr/share/backgrounds/wallpapers-personal/2401907.jpg,file:///usr/share/backgrounds/wallpapers-personal/78.jpg,file:///usr/share/backgrounds/wallpapers-personal/4.png,file:///usr/share/backgrounds/wallpapers-personal/3128426.jpg,file:///usr/share/backgrounds/wallpapers-personal/13.jpg,file:///usr/share/backgrounds/wallpapers-personal/pyramids.jpg,file:///usr/share/backgrounds/wallpapers-personal/101.jpg,file:///usr/share/backgrounds/wallpapers-personal/new_zealand_panorama.jpg,file:///usr/share/backgrounds/wallpapers-personal/2.jpg,file:///usr/share/backgrounds/wallpapers-personal/7.jpg,file:///usr/share/backgrounds/wallpapers-personal/3.jpg,file:///usr/share/backgrounds/wallpapers-personal/7991611.jpg,file:///usr/share/backgrounds/wallpapers-personal/5046024.jpg,file:///usr/share/backgrounds/wallpapers-personal/5046022.jpg,file:///usr/share/backgrounds/wallpapers-personal/14.jpg,file:///usr/share/backgrounds/wallpapers-personal/7991636.jpg,file:///usr/share/backgrounds/wallpapers-personal/7991627.jpg,file:///usr/share/backgrounds/wallpapers-personal/1.jpg,file:///usr/share/backgrounds/wallpapers-personal/8.jpg,file:///usr/share/backgrounds/wallpapers-personal/lighthouse.jpg,file:///usr/share/backgrounds/wallpapers-personal/planet.jpg,file:///usr/share/backgrounds/wallpapers-personal/12.jpg,file:///usr/share/backgrounds/wallpapers-personal/10.jpg,file:///usr/share/backgrounds/wallpapers-personal/6.png,file:///usr/share/backgrounds/wallpapers-personal/5673644.jpg,file:///usr/share/backgrounds/wallpapers-personal/lake_house.jpg,file:///usr/share/backgrounds/wallpapers-personal/5673704.jpg
-screenMapping=desktop:/calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/reinstall-grub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/commands,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xero-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/DNS-change,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/udisksctl,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/dmesg,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/bluetoothmacs,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/i915.conf,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xeropackage,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/benchmarkcpu-linux,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/hwinfo,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/cris-xero-dracul.tar.gz,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/zram-generator.conf.example,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/githubtoken,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xipnut,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/GitHub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54
+screenMapping=desktop:/bluetoothmacs,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/zram-generator.conf.example,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xero-calamares,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xeropackage,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/githubtoken,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/GitHub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/dmesg,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/udisksctl,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/i915.conf,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/DNS-change,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/cris-xero-dracul.tar.gz,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/hwinfo,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/alci-calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/benchmarkcpu-linux,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/reinstall-grub,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/xipnut,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/commands,0,cd915191-804f-4d50-8fc3-f8e5c0279f54,desktop:/calamares-config,0,cd915191-804f-4d50-8fc3-f8e5c0279f54

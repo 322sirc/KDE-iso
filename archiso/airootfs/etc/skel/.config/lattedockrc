@@ -30,6 +30,7 @@ outlineWidth=1
 12=eDP-1:::0,0 2560x1600
 13=eDP1:::0,0 2560x1600
 14=HDMI-1:::2560,0 1920x1080
+15=LVDS-1:::0,0 1600x900
 
 [UniversalSettings]
 badges3DStyle=false

@@ -38,6 +38,7 @@ brltty
 btrfs-progs
 catppuccin-cursors-frappe
 catppuccin-gtk-theme-frappe
+catppuccin-kde-theme-git
 conky-lua-archers-git
 crda
 cryptsetup
@@ -258,6 +259,7 @@ openconnect
 openssh
 openvpn
 os-prober
+otf-helvetica-now
 packagekit-qt5
 pacman-contrib
 pacman-hooks

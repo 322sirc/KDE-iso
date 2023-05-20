@@ -5,48 +5,30 @@
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
   <kcfgfile name="advancedradio"/>
   <group name="General">
-  <entry name="version" type="String">
-              <default>1</default>
-	  </entry>
     <entry name="servers" type="String">
       <label>Stations</label>
       <default>[
-      {"active":true,"hostname":"http://stream-tx3.radioparadise.com/aac-128","name":"PARADISE"},
-      {"active":true,"hostname":"http://air.radiorecord.ru:8102/rock_320","name":"Record Rock"},
-      {"active":true,"hostname":"http://ic7.101.ru:8000/c1_4","name":"Hard Rock"},
-      {"active":true,"hostname":"http://ic4.101.ru:8000/stream/pro/aac/64/157","name":"Пикник"}
+      {"active":true,"hostname":"https://mangoradio.stream.laut.fm/mangoradio?t302=2022-12-13_14-45-27&amp;uuid=b8559986-54ba-4368-9ac0-f2f4745d4b78","name":"MANGORADIO"},
+      {"active":true,"hostname":"https://reyfm-stream16.radiohost.de/reyfm-original_mp3-192","name":"REYFM - #original"},
+      {"active":true,"hostname":"http://stream.dancewave.online:8080/dance.mp3","name":"Dance Wave!"},
+      {"active":true,"hostname":"http://peridot.streamguys.com:7150/Mirchi","name":"Radio Mirchi"},
+      {"active":true,"hostname":"http://stream-uk1.radioparadise.com/aac-320","name":"Radio Paradise (320k)"},
+      {"active":true,"hostname":"https://icecast.walmradio.com:8443/classic","name":"Classic Vinyl HD"},
+      {"active":true,"hostname":"https://icecast.walmradio.com:8443/jazz","name":"Adroit Jazz Underground"},
+      {"active":true,"hostname":"https://icecast.walmradio.com:8443/christmas","name":"Christmas Vinyl HD"},
+      {"active":true,"hostname":"https://icecast.walmradio.com:8443/walm","name":"WALM HD"},
+      {"active":true,"hostname":"http://198.15.94.34:8006/stream","name":"Deep House Lounge"},
+      {"active":true,"hostname":"http://26453.live.streamtheworld.com/SAM03AAC226_SC","name":"#1980s Zoom"},
+      {"active":true,"hostname":"http://ice3.somafm.com/groovesalad-128-mp3","name":"SomaFM Groove Salad"},
+      {"active":true,"hostname":"http://jking.cdnstream1.com/b22139_128mp3","name":"101 SMOOTH JAZZ"},
+      {"active":true,"hostname":"http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3","name":"Jazz Radio Blues"},
+      {"active":true,"hostname":"http://ep256.hostingradio.ru:8052/europaplus256.mp3","name":"Europa Plus"},
+      {"active":true,"hostname":"http://lin3.ash.fast-serv.com:6026/stream_96","name":"Rockabilly-radio.net"},
+      {"active":true,"hostname":"http://185.52.127.168/fr/30001/mp3_128.mp3?origine=fluxradios?1535727639539.mp3&amp;access_token=bccc39f27055469799ec9f2f48d34f12","name":"NRJ"},
+      {"active":true,"hostname":"http://retroserver.streamr.ru:8043/retro256.mp3","name":"Ретро FM"},
+      {"active":true,"hostname":"https://dfm-disc90.hostingradio.ru/disc9096.aacp","name":"DFM Дискач 90-х"},
+      {"active":true,"hostname":"http://18103.live.streamtheworld.com:3690/977_COUNTRY_SC","name":".977 Country"}
       ]</default>
     </entry>
-    <entry name="Notification" type="bool">
-        <default>true</default>
-    </entry>
-  </group>
-  <group name="Appearance">
-        <entry name="icon" type="String">
-      <label>Icon</label>
-      <default>audio-radio</default>
-    </entry>
-
-    <entry name="fontColor" type="String">
-                <default></default>
-	    </entry>
-                    <entry name="transback" type="bool">
-		        <default>false</default>
-		    </entry>
-		    <entry name="showStation" type="bool">
-		        <default>false</default>
-		    </entry>
-		    <entry name="panel" type="bool">
-		        <default>false</default>
-		    </entry>
-		    <entry name="panelWidth" type="Int">
-		        <default>200</default>
-		    </entry>
-		    <entry name="border" type="bool">
-		        <default>true</default>
-		    </entry>
-		    <entry name="minimize" type="bool">
-		        <default>false</default>
-		    </entry>
   </group>
 </kcfg>
