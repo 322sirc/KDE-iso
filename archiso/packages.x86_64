@@ -109,6 +109,8 @@ gst-plugins-good
 gst-plugins-ugly
 gstreamer
 gstreamer-vaapi
+gtk-engines
+gtk-engine-murrine
 guvcview
 gvfs
 gvfs-afc
