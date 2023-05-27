@@ -158,7 +158,7 @@ alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 #clear
 alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
 
-#search content with ripgrepalias bash-refresh="source ~/.bashrc"
+#search content with ripgrepalias
 
 alias rg="rg --sort path"
 
