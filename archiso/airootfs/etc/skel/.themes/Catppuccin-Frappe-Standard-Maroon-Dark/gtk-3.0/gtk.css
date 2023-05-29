@@ -1576,7 +1576,7 @@ searchbar > revealer > box {
   border-radius: 12px 12px 0 0;
   border: none;
   background-color: #232634;
-  box-shadow: none;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
 .titlebar.default-decoration:backdrop {
@@ -1620,7 +1620,8 @@ box.vertical headerbar {
 
 headerbar entry,
 headerbar spinbutton,
-headerbar button {
+headerbar button,
+headerbar stackswitcher {
   margin-top: 6px;
   margin-bottom: 6px;
 }
@@ -1949,9 +1950,7 @@ menubar > menuitem > window.popup.background > menu menuitem,
   background-color: transparent;
 }
 
-menu,
-.menu,
-.context-menu {
+menu {
   margin: 6px;
   padding: 6px;
   background-color: #414559;
@@ -1960,14 +1959,12 @@ menu,
   border: 1px solid #494c5c;
 }
 
-.csd menu, .csd .menu, .csd .context-menu {
+.csd menu {
   border: none;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
-menu menuitem,
-.menu menuitem,
-.context-menu menuitem {
+menu menuitem {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
   min-height: 20px;
   min-width: 40px;
@@ -1978,74 +1975,50 @@ menu menuitem,
   border-radius: 6px;
 }
 
-menu menuitem:hover,
-.menu menuitem:hover,
-.context-menu menuitem:hover {
+menu menuitem:hover {
   background-color: alpha(currentColor, 0.08);
 }
 
-menu menuitem:active,
-.menu menuitem:active,
-.context-menu menuitem:active {
+menu menuitem:active {
   background-color: alpha(currentColor, 0.12);
 }
 
-menu menuitem:disabled,
-.menu menuitem:disabled,
-.context-menu menuitem:disabled {
+menu menuitem:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-menu menuitem accelerator,
-.menu menuitem accelerator,
-.context-menu menuitem accelerator {
+menu menuitem accelerator {
   color: rgba(255, 255, 255, 0.7);
 }
 
-menu menuitem:disabled accelerator,
-.menu menuitem:disabled accelerator,
-.context-menu menuitem:disabled accelerator {
+menu menuitem:disabled accelerator {
   color: rgba(255, 255, 255, 0.32);
 }
 
-menu menuitem arrow,
-.menu menuitem arrow,
-.context-menu menuitem arrow {
+menu menuitem arrow {
   min-height: 16px;
   min-width: 16px;
 }
 
-menu menuitem arrow:dir(ltr),
-.menu menuitem arrow:dir(ltr),
-.context-menu menuitem arrow:dir(ltr) {
+menu menuitem arrow:dir(ltr) {
   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
   margin-left: 8px;
 }
 
-menu menuitem arrow:dir(rtl),
-.menu menuitem arrow:dir(rtl),
-.context-menu menuitem arrow:dir(rtl) {
+menu menuitem arrow:dir(rtl) {
   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
   margin-right: 8px;
 }
 
-menu menuitem label:dir(rtl), menu menuitem label:dir(ltr),
-.menu menuitem label:dir(rtl),
-.menu menuitem label:dir(ltr),
-.context-menu menuitem label:dir(rtl),
-.context-menu menuitem label:dir(ltr) {
+menu menuitem label:dir(rtl), menu menuitem label:dir(ltr) {
   color: inherit;
 }
 
-menu .view:selected,
-.menu .view:selected,
-.context-menu .view:selected {
+menu .view:selected {
   background-color: #54586a;
 }
 
-menu > arrow,
-.menu > arrow,
-.context-menu > arrow {
+menu > arrow {
   min-height: 16px;
   min-width: 16px;
   padding: 4px;
@@ -2053,41 +2026,31 @@ menu > arrow,
   color: rgba(255, 255, 255, 0.7);
 }
 
-menu > arrow.top,
-.menu > arrow.top,
-.context-menu > arrow.top {
+menu > arrow.top {
   margin-top: 0;
   border-radius: 6px;
   -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
 }
 
-menu > arrow.bottom,
-.menu > arrow.bottom,
-.context-menu > arrow.bottom {
+menu > arrow.bottom {
   margin-top: 8px;
   margin-bottom: -12px;
   border-radius: 6px;
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 
-menu > arrow:hover,
-.menu > arrow:hover,
-.context-menu > arrow:hover {
+menu > arrow:hover {
   background-image: image(alpha(currentColor, 0.08));
   color: #FFFFFF;
 }
 
-menu > arrow:disabled,
-.menu > arrow:disabled,
-.context-menu > arrow:disabled {
+menu > arrow:disabled {
   border-color: transparent;
   background-color: transparent;
   color: transparent;
 }
 
-menu separator,
-.menu separator,
-.context-menu separator {
+menu separator {
   margin: 4px 0;
 }
 
@@ -3401,6 +3364,10 @@ list.navigation-sidebar > row {
   border-radius: 6px;
 }
 
+paned scrolledwindow > viewport.frame > list {
+  background-color: transparent;
+}
+
 .budgie-popover scrolledwindow.sidebar:not(.categories) list > row.activatable, treeview.view header button, row.activatable {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1), background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 1200ms cubic-bezier(0, 0, 0.2, 1);
   outline: none;
@@ -4022,7 +3989,7 @@ colorswatch#editor-color-sample overlay {
 }
 
 colorswatch#editor-color-sample overlay:hover {
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.17);
 }
 
 colorchooser .popover.osd {
@@ -4047,10 +4014,10 @@ colorchooser .popover.osd:backdrop {
  * Window Decorations *
  **********************/
 decoration {
-  transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
+  transition: none;
   border-radius: 12px;
   box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2), 0 16px 15px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 36px transparent;
-  margin: 8px;
+  margin: 10px;
 }
 
 .background.csd decoration {
@@ -4060,11 +4027,17 @@ decoration {
 }
 
 decoration:backdrop {
+  transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 36px transparent;
 }
 
-.maximized decoration, .fullscreen decoration, .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
+.tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
   border-radius: 0;
+}
+
+.maximized decoration, .fullscreen decoration {
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .popup decoration {
@@ -6172,7 +6145,11 @@ window.background.chromium headerbar {
   color: rgba(255, 255, 255, 0.7);
 }
 
-window.background.chromium headerbar button:active {
+window.background.chromium headerbar.titlebar {
+  padding: 0 12px;
+}
+
+window.background.chromium headerbar.titlebar button:active {
   background-color: alpha(currentColor, 0.12);
 }
 
@@ -6472,7 +6449,7 @@ UnityDecoration .menuitem:hover {
 
 .background:not(.csd) headerbar:not(.titlebar) {
   border-radius: 0;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.17);
 }
 
 .background:not(.csd) headerbar:not(.titlebar).inline-toolbar {
@@ -7815,8 +7792,12 @@ image.raven-mpris {
 .xfce4-panel.background button {
   min-height: 16px;
   min-width: 16px;
-  padding: 0;
+  padding: 0 6px;
   border-radius: 0;
+}
+
+.xfce4-panel.background button.flat.toggle {
+  padding: 0 6px;
 }
 
 .xfce4-panel.background .tasklist button image {
