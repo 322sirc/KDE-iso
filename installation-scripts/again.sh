@@ -31,7 +31,7 @@ echo
 	#ArchLinuxCalamaresInstallationVersion='v22.09.15'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 70-1"
+	archisoRequiredVersion="archiso 71-1"
 	buildFolder=$HOME"/KDE-build"
 	outFolder=$HOME"/KDE-iso"
 	archisoVersion=$(sudo pacman -Q archiso)

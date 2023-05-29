@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         KDE-Arch
     shortProductName:    KDE-iso
-    version:             2023.05
-    shortVersion:        2023.05
+    version:             2023.06
+    shortVersion:        2023.06
     versionedName:       KDE-Arch
     shortVersionedName:  KDE-iso
     bootloaderEntryName: KDE-Arch

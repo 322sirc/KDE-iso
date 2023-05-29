@@ -30,6 +30,7 @@ exfatprogs
 expac
 f2fs-tools
 fatresize
+foot-terminfo
 fsarchiver
 gnu-netcat
 gpart
@@ -45,7 +46,6 @@ iw
 jfsutils
 ki18n
 kitty-terminfo-git
-kpmcore
 less
 lftp
 libfido2
@@ -55,7 +55,6 @@ linux-firmware
 linux-firmware-marvell
 linux-firmware-qlogic
 linux-firmware-whence
-upd72020x-fw
 livecd-sounds
 lsscsi
 lvm2
@@ -111,12 +110,14 @@ testdisk
 tmux
 tpm2-tss
 udftools
+upd72020x-fw
 usb_modeswitch
 usbmuxd
 usbutils
 vala
 vim
 vpnc
+wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant

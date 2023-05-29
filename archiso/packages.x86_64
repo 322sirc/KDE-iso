@@ -84,6 +84,7 @@ flameshot
 flatpak
 flatseal
 fluent-round-icon-theme-mod-git
+foot-terminfo
 freetype2
 fsarchiver
 fuse2
@@ -367,10 +368,12 @@ vulkan-tools
 wallpapers-1
 wallpapers-lexica
 wallpapers-personal
+wezterm-terminfo
 wget
 whitesur-dark-red-nord-gtk-theme
 wireless-regdb
 wireless_tools
+wireplumber
 wpa_supplicant
 wvdial
 xdg-desktop-portal-gtk
