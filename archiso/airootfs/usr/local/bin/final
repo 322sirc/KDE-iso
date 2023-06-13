@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Copy /etc/skel to /root"
 echo "#################################"
+
 cp -aT /etc/skel/ /root/
 
 echo "Permission of root"
@@ -35,13 +36,7 @@ echo "Fixing SDDM.conf User"
 echo "#################################"
 sed -i "s/User=liveuser/User=/g" /etc/sddm.conf.d/kde_settings.conf
 
-echo "Applying theme to GTK-4 applications"
-echo "#################################"
-ln -sf "${HOME}/.themes/Catppuccin-Frappe-Standard-Maroon-Dark/gtk-4.0/assets" "${HOME}/.config/gtk-4.0/assets"
-ln -sf "${HOME}/.themes/Catppuccin-Frappe-Standard-Maroon-Dark/gtk-4.0/gtk.css" "${HOME}/.config/gtk-4.0/gtk.css"
-ln -sf "${HOME}/.themes/Catppuccin-Frappe-Standard-Maroon-Dark/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css"
-
 echo "Applying Flatpak GTK Overrides"
 echo "#################################"
-sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --filesystem=~/.themes
 sudo flatpak override --env=GTK_THEME=Catppuccin-Frappe-Standard-Maroon-Dark
