@@ -254,7 +254,6 @@ numlockx
 nvme-cli
 #oh-my-posh-bin
 onevpl-git
-onevpl-cpu-git
 onevpl-intel-gpu-git
 open-iscsi
 open-vm-tools
