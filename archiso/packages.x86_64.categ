@@ -118,15 +118,11 @@ usbutils
 vala
 vim
 vpnc
-wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
 xdg-desktop-portal-gtk
-xdo
-xdotool
-xscreensaver
 xfsprogs
 xl2tpd
 zsh
@@ -235,8 +231,8 @@ libva-utils
 vulkan-intel
 vulkan-mesa-layers
 vulkan-tools
-onevpl-git
-onevpl-intel-gpu-git
+libvpl
+vpl-gpu-rt
 meson
 
 ####Drivers audio
